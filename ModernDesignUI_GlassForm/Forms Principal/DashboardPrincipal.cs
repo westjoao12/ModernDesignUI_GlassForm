@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ModernDesignUI_GlassForm
+namespace ModernDesignUI_GlassForm.Forms_Principal
 {
-    public partial class Form1 : Form
+    public partial class DashboardPrincipal : Form
     {
-        public Form1()
+        public DashboardPrincipal()
         {
             InitializeComponent();
         }

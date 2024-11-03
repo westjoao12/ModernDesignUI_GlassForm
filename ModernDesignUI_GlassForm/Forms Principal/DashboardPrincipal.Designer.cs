@@ -1,6 +1,6 @@
-﻿namespace ModernDesignUI_GlassForm
+﻿namespace ModernDesignUI_GlassForm.Forms_Principal
 {
-    partial class Form1
+    partial class DashboardPrincipal
     {
         /// <summary>
         /// Required designer variable.
@@ -30,10 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.Text = "DashboardPrincipal";
         }
 
         #endregion
     }
 }
-
