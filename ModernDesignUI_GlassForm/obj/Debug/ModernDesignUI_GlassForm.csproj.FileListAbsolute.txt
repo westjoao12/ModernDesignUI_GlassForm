@@ -7,3 +7,4 @@ C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\D
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.csproj.GenerateResource.Cache
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.exe
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.pdb
+C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.Forms_Principal.DashboardPrincipal.resources
