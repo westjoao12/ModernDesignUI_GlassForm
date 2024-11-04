@@ -624,6 +624,7 @@
             this.btnHome.PressedState.Parent = this.btnHome;
             this.btnHome.Size = new System.Drawing.Size(25, 25);
             this.btnHome.TabIndex = 83;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // lblTotalNotificacao
             // 
@@ -635,16 +636,15 @@
             this.lblTotalNotificacao.Name = "lblTotalNotificacao";
             this.lblTotalNotificacao.Size = new System.Drawing.Size(25, 25);
             this.lblTotalNotificacao.TabIndex = 22;
-            this.lblTotalNotificacao.Text = "0";
+            this.lblTotalNotificacao.Text = "2";
             this.lblTotalNotificacao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblTotalNotificacao.Visible = false;
             // 
             // btnNotificacao
             // 
             this.btnNotificacao.CheckedState.Parent = this.btnNotificacao;
             this.btnNotificacao.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnNotificacao.HoverState.Parent = this.btnNotificacao;
-            this.btnNotificacao.Image = global::ModernDesignUI_GlassForm.Properties.Resources.iconNotificacaoPreto;
+            this.btnNotificacao.Image = global::ModernDesignUI_GlassForm.Properties.Resources.iconNotificacaoAzul;
             this.btnNotificacao.Location = new System.Drawing.Point(79, 15);
             this.btnNotificacao.Name = "btnNotificacao";
             this.btnNotificacao.PressedState.Parent = this.btnNotificacao;
@@ -726,6 +726,7 @@
             this.ptr_User.TabIndex = 1;
             this.ptr_User.TabStop = false;
             this.toolTip1.SetToolTip(this.ptr_User, "Mostrar/Ocultar\r\nInform. Usuário");
+            this.ptr_User.Click += new System.EventHandler(this.ptr_User_Click);
             // 
             // btnMenuLateral
             // 
@@ -789,7 +790,7 @@
             this.btnPagPendentePanelNOFI.ShadowDecoration.Parent = this.btnPagPendentePanelNOFI;
             this.btnPagPendentePanelNOFI.Size = new System.Drawing.Size(262, 75);
             this.btnPagPendentePanelNOFI.TabIndex = 90;
-            this.btnPagPendentePanelNOFI.Text = "Mensagem2...";
+            this.btnPagPendentePanelNOFI.Text = "notification...";
             this.btnPagPendentePanelNOFI.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnPagPendentePanelNOFI.TextOffset = new System.Drawing.Point(15, 0);
             // 
@@ -815,7 +816,7 @@
             this.btnSoftExpPanelNOFI.ShadowDecoration.Parent = this.btnSoftExpPanelNOFI;
             this.btnSoftExpPanelNOFI.Size = new System.Drawing.Size(262, 75);
             this.btnSoftExpPanelNOFI.TabIndex = 89;
-            this.btnSoftExpPanelNOFI.Text = "Mensagem1...";
+            this.btnSoftExpPanelNOFI.Text = "notification...";
             this.btnSoftExpPanelNOFI.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnSoftExpPanelNOFI.TextOffset = new System.Drawing.Point(15, 0);
             // 

@@ -19,8 +19,10 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
             AplicaElipse();
 
 
+            panelUsuario.Width = 50;
             panelNOTIFICACAO.Location = new Point(864, 67);
             panelNOTIFICACAO.SendToBack();
+            panelCabecalho.BottomSahddow = false;
         }
         #region Functions
 
@@ -97,22 +99,46 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
                 panelLateral.Width = 250;
         }
 
-        int TotalNotificacao = 2;
         private void btnNotificacao_Click(object sender, EventArgs e)
         {
-            if (TotalNotificacao > 0)
+            if (panelNOTIFICACAO.Visible == false)
             {
-                if (panelNOTIFICACAO.Visible == false)
-                {
-                    panelNOTIFICACAO.Visible = true;
-                    panelNOTIFICACAO.BringToFront();
-                }
-                else
-                {
-                    panelNOTIFICACAO.Visible = false;
-                    panelNOTIFICACAO.SendToBack();
-                }
+                panelNOTIFICACAO.BringToFront();
+                panelNOTIFICACAO.Visible = true;
             }
+            else
+            {
+                panelNOTIFICACAO.Visible = false;
+                panelNOTIFICACAO.SendToBack();
+            }
+        }
+
+        private void ptr_User_Click(object sender, EventArgs e)
+        {
+            if (panelUsuario.Width == 200)
+            {
+                panelUsuario.Width = 50;
+                panelNOTIFICACAO.Location = new Point(864, 67);
+            }
+            else if (panelUsuario.Width == 50)
+            {
+                panelUsuario.Width = 200;
+                panelNOTIFICACAO.Location = new Point(714, 67);
+            }
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            panelCabecalho.BottomSahddow = false;
+
+            panelexe.Controls.Clear();
+            panelexe.SendToBack();
+
+            panelMenus.BringToFront();
+            panelMenuBase.Visible = false;
+
+            panelNOTIFICACAO.SendToBack();
+            panelNOTIFICACAO.Visible = false;
         }
 
 
