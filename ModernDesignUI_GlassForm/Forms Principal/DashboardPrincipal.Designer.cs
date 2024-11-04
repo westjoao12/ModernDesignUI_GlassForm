@@ -1817,6 +1817,7 @@
             this.btnmax.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnmax.TextOffset = new System.Drawing.Point(16, 0);
             this.toolTip1.SetToolTip(this.btnmax, "Maximize");
+            this.btnmax.Click += new System.EventHandler(this.btnmax_Click);
             // 
             // btnRendimento
             // 
@@ -1869,6 +1870,7 @@
             this.btnMinimizar.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnMinimizar.TextOffset = new System.Drawing.Point(16, 0);
             this.toolTip1.SetToolTip(this.btnMinimizar, "Minimize");
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
             // 
             // btnSair
             // 
@@ -1895,6 +1897,7 @@
             this.btnSair.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnSair.TextOffset = new System.Drawing.Point(16, 0);
             this.toolTip1.SetToolTip(this.btnSair, "Exit?");
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // btnMMProfile
             // 
@@ -2074,6 +2077,10 @@
             this.btnFinancas.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnFinancas.TextOffset = new System.Drawing.Point(16, 0);
             this.toolTip1.SetToolTip(this.btnFinancas, "<Finanças$>");
+            // 
+            // timerExit
+            // 
+            this.timerExit.Tick += new System.EventHandler(this.timerExit_Tick);
             // 
             // DashboardPrincipal
             // 
