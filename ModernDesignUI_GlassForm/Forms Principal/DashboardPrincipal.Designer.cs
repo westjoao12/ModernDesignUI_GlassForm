@@ -454,6 +454,7 @@
             this.btnMenuLateral.TabIndex = 17;
             this.btnMenuLateral.TabStop = false;
             this.btnMenuLateral.Zoom = 10;
+            this.btnMenuLateral.Click += new System.EventHandler(this.btnMenuLateral_Click);
             // 
             // panelNOTIFICACAO
             // 

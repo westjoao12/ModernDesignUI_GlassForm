@@ -72,6 +72,14 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
             this.WindowState = FormWindowState.Minimized;
         }
 
+        private void btnMenuLateral_Click(object sender, EventArgs e)
+        {
+            if (panelLateral.Width == 250)
+                panelLateral.Width = 65;
+            else if (panelLateral.Width == 65)
+                panelLateral.Width = 250;
+        }
+
 
     }
 }
