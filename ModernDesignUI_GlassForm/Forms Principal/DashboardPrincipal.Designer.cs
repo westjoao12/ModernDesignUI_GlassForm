@@ -248,12 +248,12 @@
             this.panelLateral.Controls.Add(this.btnSair);
             this.panelLateral.Controls.Add(this.btnMMProfile);
             this.panelLateral.Controls.Add(this.btnProjecto);
-            this.panelLateral.Controls.Add(this.btnGestao);
             this.panelLateral.Controls.Add(this.btnGerenciamento);
             this.panelLateral.Controls.Add(this.label1);
             this.panelLateral.Controls.Add(this.guna2CirclePictureBox1);
             this.panelLateral.Controls.Add(this.btnReports);
             this.panelLateral.Controls.Add(this.btnFinancas);
+            this.panelLateral.Controls.Add(this.btnGestao);
             this.panelLateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLateral.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
             this.panelLateral.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
@@ -414,7 +414,7 @@
             this.btnProjecto.Image = ((System.Drawing.Image)(resources.GetObject("btnProjecto.Image")));
             this.btnProjecto.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnProjecto.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnProjecto.Location = new System.Drawing.Point(12, 218);
+            this.btnProjecto.Location = new System.Drawing.Point(12, 108);
             this.btnProjecto.Name = "btnProjecto";
             this.btnProjecto.ShadowDecoration.Parent = this.btnProjecto;
             this.btnProjecto.Size = new System.Drawing.Size(261, 45);
@@ -440,7 +440,7 @@
             this.btnGestao.Image = ((System.Drawing.Image)(resources.GetObject("btnGestao.Image")));
             this.btnGestao.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnGestao.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnGestao.Location = new System.Drawing.Point(12, 163);
+            this.btnGestao.Location = new System.Drawing.Point(12, 218);
             this.btnGestao.Name = "btnGestao";
             this.btnGestao.ShadowDecoration.Parent = this.btnGestao;
             this.btnGestao.Size = new System.Drawing.Size(261, 45);
@@ -466,7 +466,7 @@
             this.btnGerenciamento.Image = ((System.Drawing.Image)(resources.GetObject("btnGerenciamento.Image")));
             this.btnGerenciamento.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnGerenciamento.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnGerenciamento.Location = new System.Drawing.Point(12, 108);
+            this.btnGerenciamento.Location = new System.Drawing.Point(12, 163);
             this.btnGerenciamento.Name = "btnGerenciamento";
             this.btnGerenciamento.ShadowDecoration.Parent = this.btnGerenciamento;
             this.btnGerenciamento.Size = new System.Drawing.Size(261, 45);
@@ -475,6 +475,7 @@
             this.btnGerenciamento.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnGerenciamento.TextOffset = new System.Drawing.Point(16, 0);
             this.toolTip1.SetToolTip(this.btnGerenciamento, "Gerenciamento");
+            this.btnGerenciamento.Click += new System.EventHandler(this.btnGerenciamento_Click);
             // 
             // label1
             // 
@@ -951,6 +952,7 @@
             this.btnCloseMenu.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnCloseMenu.TextOffset = new System.Drawing.Point(16, 0);
             this.toolTip1.SetToolTip(this.btnCloseMenu, "Close Menu");
+            this.btnCloseMenu.Click += new System.EventHandler(this.btnCloseMenu_Click);
             // 
             // panelMenuGerenc
             // 
@@ -989,7 +991,6 @@
             this.btnMGProductKeys.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMGProductKeys.TabIndex = 41;
             this.btnMGProductKeys.TabStop = false;
-            this.btnMGProductKeys.Visible = false;
             this.btnMGProductKeys.Zoom = 10;
             // 
             // lblMGProductKeysDescr
@@ -1002,7 +1003,6 @@
             this.lblMGProductKeysDescr.Size = new System.Drawing.Size(263, 34);
             this.lblMGProductKeysDescr.TabIndex = 40;
             this.lblMGProductKeysDescr.Text = "Ver o códigos de activação\r\nde cada instituição que utiliza o CARACOL.";
-            this.lblMGProductKeysDescr.Visible = false;
             // 
             // lblMGProductKeysTitle
             // 
@@ -1014,7 +1014,6 @@
             this.lblMGProductKeysTitle.Size = new System.Drawing.Size(97, 16);
             this.lblMGProductKeysTitle.TabIndex = 39;
             this.lblMGProductKeysTitle.Text = "Products Keys";
-            this.lblMGProductKeysTitle.Visible = false;
             // 
             // btnMGCadastroClienteVisitados
             // 

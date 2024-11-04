@@ -141,6 +141,30 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
             panelNOTIFICACAO.Visible = false;
         }
 
+        private void btnCloseMenu_Click(object sender, EventArgs e)
+        {
+
+            panelMenuBase.Visible = false;
+        }
+
+        private void btnGerenciamento_Click(object sender, EventArgs e)
+        {
+            panelCabecalho.BottomSahddow = false;
+
+            panelexe.Controls.Clear();
+            panelexe.SendToBack();
+
+            panelMenus.BringToFront();
+            panelMenuBase.Visible = true;
+
+            //-----------------------------
+            panelMenuGestao.SendToBack();
+            panelMenuRelatorios.SendToBack();
+            panelMenuGerenc.BringToFront();
+            btnCloseMenu.BringToFront();
+        }
+
+
 
     }
 }
