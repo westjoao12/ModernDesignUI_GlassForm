@@ -49,7 +49,6 @@
             this.panelCabecalho = new Bunifu.Framework.UI.BunifuCards();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnResumoSystem = new Guna.UI2.WinForms.Guna2ImageButton();
             this.btnHome = new Guna.UI2.WinForms.Guna2ImageButton();
             this.lblTotalNotificacao = new System.Windows.Forms.Label();
             this.btnNotificacao = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -590,7 +589,6 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.btnResumoSystem);
             this.panel1.Controls.Add(this.btnHome);
             this.panel1.Controls.Add(this.lblTotalNotificacao);
             this.panel1.Controls.Add(this.btnNotificacao);
@@ -599,19 +597,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(122, 48);
             this.panel1.TabIndex = 19;
-            // 
-            // btnResumoSystem
-            // 
-            this.btnResumoSystem.CheckedState.Parent = this.btnResumoSystem;
-            this.btnResumoSystem.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnResumoSystem.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnResumoSystem.HoverState.Image")));
-            this.btnResumoSystem.HoverState.Parent = this.btnResumoSystem;
-            this.btnResumoSystem.Image = ((System.Drawing.Image)(resources.GetObject("btnResumoSystem.Image")));
-            this.btnResumoSystem.Location = new System.Drawing.Point(10, 15);
-            this.btnResumoSystem.Name = "btnResumoSystem";
-            this.btnResumoSystem.PressedState.Parent = this.btnResumoSystem;
-            this.btnResumoSystem.Size = new System.Drawing.Size(25, 25);
-            this.btnResumoSystem.TabIndex = 84;
             // 
             // btnHome
             // 
@@ -625,6 +610,7 @@
             this.btnHome.PressedState.Parent = this.btnHome;
             this.btnHome.Size = new System.Drawing.Size(25, 25);
             this.btnHome.TabIndex = 83;
+            this.toolTip1.SetToolTip(this.btnHome, "Início");
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // lblTotalNotificacao
@@ -651,6 +637,7 @@
             this.btnNotificacao.PressedState.Parent = this.btnNotificacao;
             this.btnNotificacao.Size = new System.Drawing.Size(25, 25);
             this.btnNotificacao.TabIndex = 11;
+            this.toolTip1.SetToolTip(this.btnNotificacao, "Notificações");
             this.btnNotificacao.Click += new System.EventHandler(this.btnNotificacao_Click);
             // 
             // panelUsuario
@@ -2176,7 +2163,6 @@
         private Bunifu.Framework.UI.BunifuCards panelCabecalho;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2ImageButton btnResumoSystem;
         private Guna.UI2.WinForms.Guna2ImageButton btnHome;
         private System.Windows.Forms.Label lblTotalNotificacao;
         private Guna.UI2.WinForms.Guna2ImageButton btnNotificacao;
