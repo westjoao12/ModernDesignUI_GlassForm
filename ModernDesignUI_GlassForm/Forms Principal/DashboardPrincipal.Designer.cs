@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashboardPrincipal));
             this.P_I = new System.Windows.Forms.Panel();
             this.P_S = new System.Windows.Forms.Panel();
@@ -162,6 +163,8 @@
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.btnReports = new Guna.UI2.WinForms.Guna2Button();
             this.btnFinancas = new Guna.UI2.WinForms.Guna2Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.timerExit = new System.Windows.Forms.Timer(this.components);
             this.panelLateral.SuspendLayout();
             this.panelCabecalho.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -387,6 +390,7 @@
             this.btnTrocarUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnTrocarUsuario.TabIndex = 9;
             this.btnTrocarUsuario.TabStop = false;
+            this.toolTip1.SetToolTip(this.btnTrocarUsuario, "Trocar de usuário");
             this.btnTrocarUsuario.Zoom = 10;
             // 
             // lblNivelUsuario
@@ -434,6 +438,7 @@
             this.ptr_User.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptr_User.TabIndex = 1;
             this.ptr_User.TabStop = false;
+            this.toolTip1.SetToolTip(this.ptr_User, "Mostrar/Ocultar\r\nInform. Usuário");
             // 
             // btnMenuLateral
             // 
@@ -656,6 +661,7 @@
             this.btnCloseMenu.TabIndex = 19;
             this.btnCloseMenu.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnCloseMenu.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnCloseMenu, "Close Menu");
             // 
             // panelMenuGerenc
             // 
@@ -1810,6 +1816,7 @@
             this.btnmax.TabIndex = 36;
             this.btnmax.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnmax.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnmax, "Maximize");
             // 
             // btnRendimento
             // 
@@ -1835,6 +1842,7 @@
             this.btnRendimento.Text = "Rendimento";
             this.btnRendimento.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnRendimento.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnRendimento, "Rendimento");
             // 
             // btnMinimizar
             // 
@@ -1860,6 +1868,7 @@
             this.btnMinimizar.TabIndex = 33;
             this.btnMinimizar.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnMinimizar.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnMinimizar, "Minimize");
             // 
             // btnSair
             // 
@@ -1885,6 +1894,7 @@
             this.btnSair.TabIndex = 31;
             this.btnSair.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnSair.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnSair, "Exit?");
             // 
             // btnMMProfile
             // 
@@ -1910,6 +1920,7 @@
             this.btnMMProfile.Text = "WT profile";
             this.btnMMProfile.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnMMProfile.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnMMProfile, "WT profile");
             // 
             // btnProjecto
             // 
@@ -1935,6 +1946,7 @@
             this.btnProjecto.Text = "<Projectos/>";
             this.btnProjecto.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnProjecto.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnProjecto, "<Projectos/>");
             // 
             // btnGestao
             // 
@@ -1960,6 +1972,7 @@
             this.btnGestao.Text = "Gestão";
             this.btnGestao.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnGestao.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnGestao, "Gestão");
             // 
             // btnGerenciamento
             // 
@@ -1985,6 +1998,7 @@
             this.btnGerenciamento.Text = "Gerenciamento";
             this.btnGerenciamento.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnGerenciamento.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnGerenciamento, "Gerenciamento");
             // 
             // label1
             // 
@@ -1993,9 +2007,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(69, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 25);
+            this.label1.Size = new System.Drawing.Size(109, 25);
             this.label1.TabIndex = 26;
-            this.label1.Text = "WoboTec";
+            this.label1.Text = "Dashboard";
             // 
             // guna2CirclePictureBox1
             // 
@@ -2033,6 +2047,7 @@
             this.btnReports.Text = "Relatórios";
             this.btnReports.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnReports.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnReports, "Relatórios");
             // 
             // btnFinancas
             // 
@@ -2058,6 +2073,7 @@
             this.btnFinancas.Text = "<Finanças$>";
             this.btnFinancas.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnFinancas.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnFinancas, "<Finanças$>");
             // 
             // DashboardPrincipal
             // 
@@ -2277,6 +2293,8 @@
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private Guna.UI2.WinForms.Guna2Button btnReports;
         private Guna.UI2.WinForms.Guna2Button btnFinancas;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Timer timerExit;
 
 
     }
