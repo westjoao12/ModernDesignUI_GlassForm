@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bunifu.Framework.UI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,8 +16,24 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
         public DashboardPrincipal()
         {
             InitializeComponent();
+            AplicaElipse();
+
+
+            panelNOTIFICACAO.Location = new Point(864, 67);
+            panelNOTIFICACAO.SendToBack();
         }
         #region Functions
+
+        void AplicaElipse()
+        {
+            BunifuDragControl c = new BunifuDragControl();
+            c.TargetControl = panelCabecalho;
+
+            BunifuElipse elipse = new BunifuElipse();
+            elipse.ApplyElipse(lblTotalNotificacao, 100);
+            elipse.ApplyElipse(panelNOTIFICACAO, 25);
+            elipse.ApplyElipse(panelBaseNotificacao, 25);
+        }
         void SairApp()
         {
             if (MessageBox.Show("Deseja sair da aplicação?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
@@ -78,6 +95,24 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
                 panelLateral.Width = 65;
             else if (panelLateral.Width == 65)
                 panelLateral.Width = 250;
+        }
+
+        int TotalNotificacao = 2;
+        private void btnNotificacao_Click(object sender, EventArgs e)
+        {
+            if (TotalNotificacao > 0)
+            {
+                if (panelNOTIFICACAO.Visible == false)
+                {
+                    panelNOTIFICACAO.Visible = true;
+                    panelNOTIFICACAO.BringToFront();
+                }
+                else
+                {
+                    panelNOTIFICACAO.Visible = false;
+                    panelNOTIFICACAO.SendToBack();
+                }
+            }
         }
 
 

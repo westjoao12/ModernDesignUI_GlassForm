@@ -33,6 +33,18 @@
             this.P_I = new System.Windows.Forms.Panel();
             this.P_S = new System.Windows.Forms.Panel();
             this.panelLateral = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.btnmax = new Guna.UI2.WinForms.Guna2Button();
+            this.btnRendimento = new Guna.UI2.WinForms.Guna2Button();
+            this.btnMinimizar = new Guna.UI2.WinForms.Guna2Button();
+            this.btnSair = new Guna.UI2.WinForms.Guna2Button();
+            this.btnMMProfile = new Guna.UI2.WinForms.Guna2Button();
+            this.btnProjecto = new Guna.UI2.WinForms.Guna2Button();
+            this.btnGestao = new Guna.UI2.WinForms.Guna2Button();
+            this.btnGerenciamento = new Guna.UI2.WinForms.Guna2Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.btnReports = new Guna.UI2.WinForms.Guna2Button();
+            this.btnFinancas = new Guna.UI2.WinForms.Guna2Button();
             this.P_L = new System.Windows.Forms.Panel();
             this.panelCabecalho = new Bunifu.Framework.UI.BunifuCards();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -151,21 +163,10 @@
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.panelexe = new System.Windows.Forms.Panel();
-            this.btnmax = new Guna.UI2.WinForms.Guna2Button();
-            this.btnRendimento = new Guna.UI2.WinForms.Guna2Button();
-            this.btnMinimizar = new Guna.UI2.WinForms.Guna2Button();
-            this.btnSair = new Guna.UI2.WinForms.Guna2Button();
-            this.btnMMProfile = new Guna.UI2.WinForms.Guna2Button();
-            this.btnProjecto = new Guna.UI2.WinForms.Guna2Button();
-            this.btnGestao = new Guna.UI2.WinForms.Guna2Button();
-            this.btnGerenciamento = new Guna.UI2.WinForms.Guna2Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.btnReports = new Guna.UI2.WinForms.Guna2Button();
-            this.btnFinancas = new Guna.UI2.WinForms.Guna2Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.timerExit = new System.Windows.Forms.Timer(this.components);
             this.panelLateral.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.panelCabecalho.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -216,7 +217,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnMGeCadastroServico)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMGeProforma)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMGeDespesas)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // P_I
@@ -264,6 +264,292 @@
             this.panelLateral.Quality = 10;
             this.panelLateral.Size = new System.Drawing.Size(250, 650);
             this.panelLateral.TabIndex = 0;
+            // 
+            // btnmax
+            // 
+            this.btnmax.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnmax.BorderRadius = 22;
+            this.btnmax.CheckedState.Parent = this.btnmax;
+            this.btnmax.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnmax.CustomImages.Parent = this.btnmax;
+            this.btnmax.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnmax.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnmax.ForeColor = System.Drawing.Color.White;
+            this.btnmax.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnmax.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnmax.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnmax.HoverState.Image")));
+            this.btnmax.HoverState.Parent = this.btnmax;
+            this.btnmax.Image = ((System.Drawing.Image)(resources.GetObject("btnmax.Image")));
+            this.btnmax.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnmax.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnmax.Location = new System.Drawing.Point(68, 594);
+            this.btnmax.Name = "btnmax";
+            this.btnmax.ShadowDecoration.Parent = this.btnmax;
+            this.btnmax.Size = new System.Drawing.Size(50, 45);
+            this.btnmax.TabIndex = 36;
+            this.btnmax.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnmax.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnmax, "Maximize");
+            this.btnmax.Click += new System.EventHandler(this.btnmax_Click);
+            // 
+            // btnRendimento
+            // 
+            this.btnRendimento.BorderRadius = 22;
+            this.btnRendimento.CheckedState.Parent = this.btnRendimento;
+            this.btnRendimento.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRendimento.CustomImages.Parent = this.btnRendimento;
+            this.btnRendimento.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnRendimento.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnRendimento.ForeColor = System.Drawing.Color.White;
+            this.btnRendimento.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnRendimento.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnRendimento.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnRendimento.HoverState.Image")));
+            this.btnRendimento.HoverState.Parent = this.btnRendimento;
+            this.btnRendimento.Image = ((System.Drawing.Image)(resources.GetObject("btnRendimento.Image")));
+            this.btnRendimento.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnRendimento.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnRendimento.Location = new System.Drawing.Point(12, 273);
+            this.btnRendimento.Name = "btnRendimento";
+            this.btnRendimento.ShadowDecoration.Parent = this.btnRendimento;
+            this.btnRendimento.Size = new System.Drawing.Size(261, 45);
+            this.btnRendimento.TabIndex = 35;
+            this.btnRendimento.Text = "Rendimento";
+            this.btnRendimento.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnRendimento.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnRendimento, "Rendimento");
+            // 
+            // btnMinimizar
+            // 
+            this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnMinimizar.BorderRadius = 22;
+            this.btnMinimizar.CheckedState.Parent = this.btnMinimizar;
+            this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMinimizar.CustomImages.Parent = this.btnMinimizar;
+            this.btnMinimizar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnMinimizar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnMinimizar.ForeColor = System.Drawing.Color.White;
+            this.btnMinimizar.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnMinimizar.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnMinimizar.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.HoverState.Image")));
+            this.btnMinimizar.HoverState.Parent = this.btnMinimizar;
+            this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
+            this.btnMinimizar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnMinimizar.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnMinimizar.Location = new System.Drawing.Point(124, 594);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.ShadowDecoration.Parent = this.btnMinimizar;
+            this.btnMinimizar.Size = new System.Drawing.Size(50, 45);
+            this.btnMinimizar.TabIndex = 33;
+            this.btnMinimizar.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnMinimizar.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnMinimizar, "Minimize");
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
+            // 
+            // btnSair
+            // 
+            this.btnSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnSair.BorderRadius = 22;
+            this.btnSair.CheckedState.Parent = this.btnSair;
+            this.btnSair.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSair.CustomImages.Parent = this.btnSair;
+            this.btnSair.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnSair.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnSair.ForeColor = System.Drawing.Color.White;
+            this.btnSair.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnSair.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnSair.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.HoverState.Image")));
+            this.btnSair.HoverState.Parent = this.btnSair;
+            this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
+            this.btnSair.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSair.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnSair.Location = new System.Drawing.Point(12, 594);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.ShadowDecoration.Parent = this.btnSair;
+            this.btnSair.Size = new System.Drawing.Size(50, 45);
+            this.btnSair.TabIndex = 31;
+            this.btnSair.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSair.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnSair, "Exit?");
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
+            // btnMMProfile
+            // 
+            this.btnMMProfile.BorderRadius = 22;
+            this.btnMMProfile.CheckedState.Parent = this.btnMMProfile;
+            this.btnMMProfile.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMMProfile.CustomImages.Parent = this.btnMMProfile;
+            this.btnMMProfile.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnMMProfile.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnMMProfile.ForeColor = System.Drawing.Color.White;
+            this.btnMMProfile.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnMMProfile.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnMMProfile.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnMMProfile.HoverState.Image")));
+            this.btnMMProfile.HoverState.Parent = this.btnMMProfile;
+            this.btnMMProfile.Image = ((System.Drawing.Image)(resources.GetObject("btnMMProfile.Image")));
+            this.btnMMProfile.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnMMProfile.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnMMProfile.Location = new System.Drawing.Point(12, 438);
+            this.btnMMProfile.Name = "btnMMProfile";
+            this.btnMMProfile.ShadowDecoration.Parent = this.btnMMProfile;
+            this.btnMMProfile.Size = new System.Drawing.Size(261, 45);
+            this.btnMMProfile.TabIndex = 30;
+            this.btnMMProfile.Text = "WT profile";
+            this.btnMMProfile.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnMMProfile.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnMMProfile, "WT profile");
+            // 
+            // btnProjecto
+            // 
+            this.btnProjecto.BorderRadius = 22;
+            this.btnProjecto.CheckedState.Parent = this.btnProjecto;
+            this.btnProjecto.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnProjecto.CustomImages.Parent = this.btnProjecto;
+            this.btnProjecto.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnProjecto.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnProjecto.ForeColor = System.Drawing.Color.White;
+            this.btnProjecto.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnProjecto.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnProjecto.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnProjecto.HoverState.Image")));
+            this.btnProjecto.HoverState.Parent = this.btnProjecto;
+            this.btnProjecto.Image = ((System.Drawing.Image)(resources.GetObject("btnProjecto.Image")));
+            this.btnProjecto.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnProjecto.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnProjecto.Location = new System.Drawing.Point(12, 218);
+            this.btnProjecto.Name = "btnProjecto";
+            this.btnProjecto.ShadowDecoration.Parent = this.btnProjecto;
+            this.btnProjecto.Size = new System.Drawing.Size(261, 45);
+            this.btnProjecto.TabIndex = 29;
+            this.btnProjecto.Text = "<Projectos/>";
+            this.btnProjecto.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnProjecto.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnProjecto, "<Projectos/>");
+            // 
+            // btnGestao
+            // 
+            this.btnGestao.BorderRadius = 22;
+            this.btnGestao.CheckedState.Parent = this.btnGestao;
+            this.btnGestao.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGestao.CustomImages.Parent = this.btnGestao;
+            this.btnGestao.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnGestao.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnGestao.ForeColor = System.Drawing.Color.White;
+            this.btnGestao.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnGestao.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnGestao.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnGestao.HoverState.Image")));
+            this.btnGestao.HoverState.Parent = this.btnGestao;
+            this.btnGestao.Image = ((System.Drawing.Image)(resources.GetObject("btnGestao.Image")));
+            this.btnGestao.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnGestao.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnGestao.Location = new System.Drawing.Point(12, 163);
+            this.btnGestao.Name = "btnGestao";
+            this.btnGestao.ShadowDecoration.Parent = this.btnGestao;
+            this.btnGestao.Size = new System.Drawing.Size(261, 45);
+            this.btnGestao.TabIndex = 28;
+            this.btnGestao.Text = "Gestão";
+            this.btnGestao.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnGestao.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnGestao, "Gestão");
+            // 
+            // btnGerenciamento
+            // 
+            this.btnGerenciamento.BorderRadius = 22;
+            this.btnGerenciamento.CheckedState.Parent = this.btnGerenciamento;
+            this.btnGerenciamento.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGerenciamento.CustomImages.Parent = this.btnGerenciamento;
+            this.btnGerenciamento.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnGerenciamento.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnGerenciamento.ForeColor = System.Drawing.Color.White;
+            this.btnGerenciamento.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnGerenciamento.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnGerenciamento.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnGerenciamento.HoverState.Image")));
+            this.btnGerenciamento.HoverState.Parent = this.btnGerenciamento;
+            this.btnGerenciamento.Image = ((System.Drawing.Image)(resources.GetObject("btnGerenciamento.Image")));
+            this.btnGerenciamento.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnGerenciamento.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnGerenciamento.Location = new System.Drawing.Point(12, 108);
+            this.btnGerenciamento.Name = "btnGerenciamento";
+            this.btnGerenciamento.ShadowDecoration.Parent = this.btnGerenciamento;
+            this.btnGerenciamento.Size = new System.Drawing.Size(261, 45);
+            this.btnGerenciamento.TabIndex = 27;
+            this.btnGerenciamento.Text = "Gerenciamento";
+            this.btnGerenciamento.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnGerenciamento.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnGerenciamento, "Gerenciamento");
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(69, 26);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(109, 25);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "Dashboard";
+            // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(12, 13);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox1.TabIndex = 25;
+            this.guna2CirclePictureBox1.TabStop = false;
+            // 
+            // btnReports
+            // 
+            this.btnReports.BorderRadius = 22;
+            this.btnReports.CheckedState.Parent = this.btnReports;
+            this.btnReports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReports.CustomImages.Parent = this.btnReports;
+            this.btnReports.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnReports.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnReports.ForeColor = System.Drawing.Color.White;
+            this.btnReports.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnReports.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnReports.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnReports.HoverState.Image")));
+            this.btnReports.HoverState.Parent = this.btnReports;
+            this.btnReports.Image = ((System.Drawing.Image)(resources.GetObject("btnReports.Image")));
+            this.btnReports.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnReports.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnReports.Location = new System.Drawing.Point(12, 383);
+            this.btnReports.Name = "btnReports";
+            this.btnReports.ShadowDecoration.Parent = this.btnReports;
+            this.btnReports.Size = new System.Drawing.Size(261, 45);
+            this.btnReports.TabIndex = 32;
+            this.btnReports.Text = "Relatórios";
+            this.btnReports.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnReports.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnReports, "Relatórios");
+            // 
+            // btnFinancas
+            // 
+            this.btnFinancas.BorderRadius = 22;
+            this.btnFinancas.CheckedState.Parent = this.btnFinancas;
+            this.btnFinancas.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFinancas.CustomImages.Parent = this.btnFinancas;
+            this.btnFinancas.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnFinancas.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnFinancas.ForeColor = System.Drawing.Color.White;
+            this.btnFinancas.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnFinancas.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnFinancas.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnFinancas.HoverState.Image")));
+            this.btnFinancas.HoverState.Parent = this.btnFinancas;
+            this.btnFinancas.Image = ((System.Drawing.Image)(resources.GetObject("btnFinancas.Image")));
+            this.btnFinancas.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnFinancas.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnFinancas.Location = new System.Drawing.Point(12, 328);
+            this.btnFinancas.Name = "btnFinancas";
+            this.btnFinancas.ShadowDecoration.Parent = this.btnFinancas;
+            this.btnFinancas.Size = new System.Drawing.Size(261, 45);
+            this.btnFinancas.TabIndex = 34;
+            this.btnFinancas.Text = "<Finanças$>";
+            this.btnFinancas.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnFinancas.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnFinancas, "<Finanças$>");
             // 
             // P_L
             // 
@@ -364,6 +650,7 @@
             this.btnNotificacao.PressedState.Parent = this.btnNotificacao;
             this.btnNotificacao.Size = new System.Drawing.Size(25, 25);
             this.btnNotificacao.TabIndex = 11;
+            this.btnNotificacao.Click += new System.EventHandler(this.btnNotificacao_Click);
             // 
             // panelUsuario
             // 
@@ -502,7 +789,7 @@
             this.btnPagPendentePanelNOFI.ShadowDecoration.Parent = this.btnPagPendentePanelNOFI;
             this.btnPagPendentePanelNOFI.Size = new System.Drawing.Size(262, 75);
             this.btnPagPendentePanelNOFI.TabIndex = 90;
-            this.btnPagPendentePanelNOFI.Text = "Texto...";
+            this.btnPagPendentePanelNOFI.Text = "Mensagem2...";
             this.btnPagPendentePanelNOFI.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnPagPendentePanelNOFI.TextOffset = new System.Drawing.Point(15, 0);
             // 
@@ -528,7 +815,7 @@
             this.btnSoftExpPanelNOFI.ShadowDecoration.Parent = this.btnSoftExpPanelNOFI;
             this.btnSoftExpPanelNOFI.Size = new System.Drawing.Size(262, 75);
             this.btnSoftExpPanelNOFI.TabIndex = 89;
-            this.btnSoftExpPanelNOFI.Text = "Texto...";
+            this.btnSoftExpPanelNOFI.Text = "Mensagem1...";
             this.btnSoftExpPanelNOFI.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnSoftExpPanelNOFI.TextOffset = new System.Drawing.Point(15, 0);
             // 
@@ -1793,292 +2080,6 @@
             this.panelexe.Size = new System.Drawing.Size(944, 575);
             this.panelexe.TabIndex = 0;
             // 
-            // btnmax
-            // 
-            this.btnmax.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnmax.BorderRadius = 22;
-            this.btnmax.CheckedState.Parent = this.btnmax;
-            this.btnmax.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnmax.CustomImages.Parent = this.btnmax;
-            this.btnmax.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnmax.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnmax.ForeColor = System.Drawing.Color.White;
-            this.btnmax.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnmax.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnmax.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnmax.HoverState.Image")));
-            this.btnmax.HoverState.Parent = this.btnmax;
-            this.btnmax.Image = ((System.Drawing.Image)(resources.GetObject("btnmax.Image")));
-            this.btnmax.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnmax.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnmax.Location = new System.Drawing.Point(68, 594);
-            this.btnmax.Name = "btnmax";
-            this.btnmax.ShadowDecoration.Parent = this.btnmax;
-            this.btnmax.Size = new System.Drawing.Size(50, 45);
-            this.btnmax.TabIndex = 36;
-            this.btnmax.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnmax.TextOffset = new System.Drawing.Point(16, 0);
-            this.toolTip1.SetToolTip(this.btnmax, "Maximize");
-            this.btnmax.Click += new System.EventHandler(this.btnmax_Click);
-            // 
-            // btnRendimento
-            // 
-            this.btnRendimento.BorderRadius = 22;
-            this.btnRendimento.CheckedState.Parent = this.btnRendimento;
-            this.btnRendimento.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRendimento.CustomImages.Parent = this.btnRendimento;
-            this.btnRendimento.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnRendimento.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnRendimento.ForeColor = System.Drawing.Color.White;
-            this.btnRendimento.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnRendimento.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnRendimento.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnRendimento.HoverState.Image")));
-            this.btnRendimento.HoverState.Parent = this.btnRendimento;
-            this.btnRendimento.Image = ((System.Drawing.Image)(resources.GetObject("btnRendimento.Image")));
-            this.btnRendimento.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnRendimento.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnRendimento.Location = new System.Drawing.Point(12, 273);
-            this.btnRendimento.Name = "btnRendimento";
-            this.btnRendimento.ShadowDecoration.Parent = this.btnRendimento;
-            this.btnRendimento.Size = new System.Drawing.Size(261, 45);
-            this.btnRendimento.TabIndex = 35;
-            this.btnRendimento.Text = "Rendimento";
-            this.btnRendimento.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnRendimento.TextOffset = new System.Drawing.Point(16, 0);
-            this.toolTip1.SetToolTip(this.btnRendimento, "Rendimento");
-            // 
-            // btnMinimizar
-            // 
-            this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnMinimizar.BorderRadius = 22;
-            this.btnMinimizar.CheckedState.Parent = this.btnMinimizar;
-            this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMinimizar.CustomImages.Parent = this.btnMinimizar;
-            this.btnMinimizar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnMinimizar.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnMinimizar.ForeColor = System.Drawing.Color.White;
-            this.btnMinimizar.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnMinimizar.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnMinimizar.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.HoverState.Image")));
-            this.btnMinimizar.HoverState.Parent = this.btnMinimizar;
-            this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
-            this.btnMinimizar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnMinimizar.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnMinimizar.Location = new System.Drawing.Point(124, 594);
-            this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.ShadowDecoration.Parent = this.btnMinimizar;
-            this.btnMinimizar.Size = new System.Drawing.Size(50, 45);
-            this.btnMinimizar.TabIndex = 33;
-            this.btnMinimizar.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnMinimizar.TextOffset = new System.Drawing.Point(16, 0);
-            this.toolTip1.SetToolTip(this.btnMinimizar, "Minimize");
-            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
-            // 
-            // btnSair
-            // 
-            this.btnSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnSair.BorderRadius = 22;
-            this.btnSair.CheckedState.Parent = this.btnSair;
-            this.btnSair.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSair.CustomImages.Parent = this.btnSair;
-            this.btnSair.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnSair.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnSair.ForeColor = System.Drawing.Color.White;
-            this.btnSair.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnSair.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnSair.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.HoverState.Image")));
-            this.btnSair.HoverState.Parent = this.btnSair;
-            this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
-            this.btnSair.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnSair.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnSair.Location = new System.Drawing.Point(12, 594);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.ShadowDecoration.Parent = this.btnSair;
-            this.btnSair.Size = new System.Drawing.Size(50, 45);
-            this.btnSair.TabIndex = 31;
-            this.btnSair.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnSair.TextOffset = new System.Drawing.Point(16, 0);
-            this.toolTip1.SetToolTip(this.btnSair, "Exit?");
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
-            // 
-            // btnMMProfile
-            // 
-            this.btnMMProfile.BorderRadius = 22;
-            this.btnMMProfile.CheckedState.Parent = this.btnMMProfile;
-            this.btnMMProfile.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMMProfile.CustomImages.Parent = this.btnMMProfile;
-            this.btnMMProfile.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnMMProfile.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnMMProfile.ForeColor = System.Drawing.Color.White;
-            this.btnMMProfile.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnMMProfile.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnMMProfile.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnMMProfile.HoverState.Image")));
-            this.btnMMProfile.HoverState.Parent = this.btnMMProfile;
-            this.btnMMProfile.Image = ((System.Drawing.Image)(resources.GetObject("btnMMProfile.Image")));
-            this.btnMMProfile.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnMMProfile.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnMMProfile.Location = new System.Drawing.Point(12, 438);
-            this.btnMMProfile.Name = "btnMMProfile";
-            this.btnMMProfile.ShadowDecoration.Parent = this.btnMMProfile;
-            this.btnMMProfile.Size = new System.Drawing.Size(261, 45);
-            this.btnMMProfile.TabIndex = 30;
-            this.btnMMProfile.Text = "WT profile";
-            this.btnMMProfile.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnMMProfile.TextOffset = new System.Drawing.Point(16, 0);
-            this.toolTip1.SetToolTip(this.btnMMProfile, "WT profile");
-            // 
-            // btnProjecto
-            // 
-            this.btnProjecto.BorderRadius = 22;
-            this.btnProjecto.CheckedState.Parent = this.btnProjecto;
-            this.btnProjecto.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnProjecto.CustomImages.Parent = this.btnProjecto;
-            this.btnProjecto.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnProjecto.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnProjecto.ForeColor = System.Drawing.Color.White;
-            this.btnProjecto.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnProjecto.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnProjecto.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnProjecto.HoverState.Image")));
-            this.btnProjecto.HoverState.Parent = this.btnProjecto;
-            this.btnProjecto.Image = ((System.Drawing.Image)(resources.GetObject("btnProjecto.Image")));
-            this.btnProjecto.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnProjecto.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnProjecto.Location = new System.Drawing.Point(12, 218);
-            this.btnProjecto.Name = "btnProjecto";
-            this.btnProjecto.ShadowDecoration.Parent = this.btnProjecto;
-            this.btnProjecto.Size = new System.Drawing.Size(261, 45);
-            this.btnProjecto.TabIndex = 29;
-            this.btnProjecto.Text = "<Projectos/>";
-            this.btnProjecto.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnProjecto.TextOffset = new System.Drawing.Point(16, 0);
-            this.toolTip1.SetToolTip(this.btnProjecto, "<Projectos/>");
-            // 
-            // btnGestao
-            // 
-            this.btnGestao.BorderRadius = 22;
-            this.btnGestao.CheckedState.Parent = this.btnGestao;
-            this.btnGestao.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGestao.CustomImages.Parent = this.btnGestao;
-            this.btnGestao.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnGestao.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnGestao.ForeColor = System.Drawing.Color.White;
-            this.btnGestao.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnGestao.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnGestao.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnGestao.HoverState.Image")));
-            this.btnGestao.HoverState.Parent = this.btnGestao;
-            this.btnGestao.Image = ((System.Drawing.Image)(resources.GetObject("btnGestao.Image")));
-            this.btnGestao.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnGestao.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnGestao.Location = new System.Drawing.Point(12, 163);
-            this.btnGestao.Name = "btnGestao";
-            this.btnGestao.ShadowDecoration.Parent = this.btnGestao;
-            this.btnGestao.Size = new System.Drawing.Size(261, 45);
-            this.btnGestao.TabIndex = 28;
-            this.btnGestao.Text = "Gestão";
-            this.btnGestao.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnGestao.TextOffset = new System.Drawing.Point(16, 0);
-            this.toolTip1.SetToolTip(this.btnGestao, "Gestão");
-            // 
-            // btnGerenciamento
-            // 
-            this.btnGerenciamento.BorderRadius = 22;
-            this.btnGerenciamento.CheckedState.Parent = this.btnGerenciamento;
-            this.btnGerenciamento.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGerenciamento.CustomImages.Parent = this.btnGerenciamento;
-            this.btnGerenciamento.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnGerenciamento.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnGerenciamento.ForeColor = System.Drawing.Color.White;
-            this.btnGerenciamento.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnGerenciamento.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnGerenciamento.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnGerenciamento.HoverState.Image")));
-            this.btnGerenciamento.HoverState.Parent = this.btnGerenciamento;
-            this.btnGerenciamento.Image = ((System.Drawing.Image)(resources.GetObject("btnGerenciamento.Image")));
-            this.btnGerenciamento.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnGerenciamento.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnGerenciamento.Location = new System.Drawing.Point(12, 108);
-            this.btnGerenciamento.Name = "btnGerenciamento";
-            this.btnGerenciamento.ShadowDecoration.Parent = this.btnGerenciamento;
-            this.btnGerenciamento.Size = new System.Drawing.Size(261, 45);
-            this.btnGerenciamento.TabIndex = 27;
-            this.btnGerenciamento.Text = "Gerenciamento";
-            this.btnGerenciamento.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnGerenciamento.TextOffset = new System.Drawing.Point(16, 0);
-            this.toolTip1.SetToolTip(this.btnGerenciamento, "Gerenciamento");
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(69, 26);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(109, 25);
-            this.label1.TabIndex = 26;
-            this.label1.Text = "Dashboard";
-            // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(12, 13);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(50, 50);
-            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox1.TabIndex = 25;
-            this.guna2CirclePictureBox1.TabStop = false;
-            // 
-            // btnReports
-            // 
-            this.btnReports.BorderRadius = 22;
-            this.btnReports.CheckedState.Parent = this.btnReports;
-            this.btnReports.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnReports.CustomImages.Parent = this.btnReports;
-            this.btnReports.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnReports.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnReports.ForeColor = System.Drawing.Color.White;
-            this.btnReports.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnReports.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnReports.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnReports.HoverState.Image")));
-            this.btnReports.HoverState.Parent = this.btnReports;
-            this.btnReports.Image = ((System.Drawing.Image)(resources.GetObject("btnReports.Image")));
-            this.btnReports.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnReports.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnReports.Location = new System.Drawing.Point(12, 383);
-            this.btnReports.Name = "btnReports";
-            this.btnReports.ShadowDecoration.Parent = this.btnReports;
-            this.btnReports.Size = new System.Drawing.Size(261, 45);
-            this.btnReports.TabIndex = 32;
-            this.btnReports.Text = "Relatórios";
-            this.btnReports.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnReports.TextOffset = new System.Drawing.Point(16, 0);
-            this.toolTip1.SetToolTip(this.btnReports, "Relatórios");
-            // 
-            // btnFinancas
-            // 
-            this.btnFinancas.BorderRadius = 22;
-            this.btnFinancas.CheckedState.Parent = this.btnFinancas;
-            this.btnFinancas.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFinancas.CustomImages.Parent = this.btnFinancas;
-            this.btnFinancas.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnFinancas.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnFinancas.ForeColor = System.Drawing.Color.White;
-            this.btnFinancas.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnFinancas.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnFinancas.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnFinancas.HoverState.Image")));
-            this.btnFinancas.HoverState.Parent = this.btnFinancas;
-            this.btnFinancas.Image = ((System.Drawing.Image)(resources.GetObject("btnFinancas.Image")));
-            this.btnFinancas.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnFinancas.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnFinancas.Location = new System.Drawing.Point(12, 328);
-            this.btnFinancas.Name = "btnFinancas";
-            this.btnFinancas.ShadowDecoration.Parent = this.btnFinancas;
-            this.btnFinancas.Size = new System.Drawing.Size(261, 45);
-            this.btnFinancas.TabIndex = 34;
-            this.btnFinancas.Text = "<Finanças$>";
-            this.btnFinancas.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnFinancas.TextOffset = new System.Drawing.Point(16, 0);
-            this.toolTip1.SetToolTip(this.btnFinancas, "<Finanças$>");
-            // 
             // timerExit
             // 
             this.timerExit.Tick += new System.EventHandler(this.timerExit_Tick);
@@ -2089,8 +2090,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(252)))));
             this.ClientSize = new System.Drawing.Size(1204, 650);
-            this.Controls.Add(this.panelBase);
             this.Controls.Add(this.panelNOTIFICACAO);
+            this.Controls.Add(this.panelBase);
             this.Controls.Add(this.panelCabecalho);
             this.Controls.Add(this.P_I);
             this.Controls.Add(this.P_S);
@@ -2103,6 +2104,7 @@
             this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panelLateral.ResumeLayout(false);
             this.panelLateral.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.panelCabecalho.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
@@ -2161,7 +2163,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnMGeCadastroServico)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMGeProforma)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMGeDespesas)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
