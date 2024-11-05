@@ -147,7 +147,7 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
             panelMenuBase.Visible = false;
         }
 
-        private void btnGerenciamento_Click(object sender, EventArgs e)
+        private void btnRendimento_Click(object sender, EventArgs e)
         {
             panelCabecalho.BottomSahddow = false;
 
@@ -158,9 +158,23 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
             panelMenuBase.Visible = true;
 
             //-----------------------------
-            panelMenuGestao.SendToBack();
-            panelMenuRelatorios.SendToBack();
-            panelMenuGerenc.BringToFront();
+            panelMenuRendimento.BringToFront();
+            btnCloseMenu.BringToFront();
+        }
+
+        private void btnReports_Click(object sender, EventArgs e)
+        {
+            panelCabecalho.BottomSahddow = false;
+
+            panelexe.Controls.Clear();
+            panelexe.SendToBack();
+
+            panelMenus.BringToFront();
+            panelMenuBase.Visible = true;
+
+            //-----------------------------
+            panelMenuRendimento.SendToBack();
+            panelMenuRelatorios.BringToFront();
             btnCloseMenu.BringToFront();
         }
 

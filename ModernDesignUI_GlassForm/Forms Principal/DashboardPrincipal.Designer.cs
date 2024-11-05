@@ -39,12 +39,9 @@
             this.btnSair = new Guna.UI2.WinForms.Guna2Button();
             this.btnMMProfile = new Guna.UI2.WinForms.Guna2Button();
             this.btnProjecto = new Guna.UI2.WinForms.Guna2Button();
-            this.btnGestao = new Guna.UI2.WinForms.Guna2Button();
-            this.btnGerenciamento = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.btnReports = new Guna.UI2.WinForms.Guna2Button();
-            this.btnFinancas = new Guna.UI2.WinForms.Guna2Button();
             this.P_L = new System.Windows.Forms.Panel();
             this.panelCabecalho = new Bunifu.Framework.UI.BunifuCards();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -73,24 +70,6 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panelMenuBase = new System.Windows.Forms.Panel();
             this.btnCloseMenu = new Guna.UI2.WinForms.Guna2Button();
-            this.panelMenuGerenc = new System.Windows.Forms.Panel();
-            this.btnMGProductKeys = new Bunifu.Framework.UI.BunifuImageButton();
-            this.lblMGProductKeysDescr = new System.Windows.Forms.Label();
-            this.lblMGProductKeysTitle = new System.Windows.Forms.Label();
-            this.btnMGCadastroClienteVisitados = new Bunifu.Framework.UI.BunifuImageButton();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.btnMGCadastroCliente = new Bunifu.Framework.UI.BunifuImageButton();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.btnMGCadastroUsuario = new Bunifu.Framework.UI.BunifuImageButton();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.btnMGCadastroFunc = new Bunifu.Framework.UI.BunifuImageButton();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.panelMenuRelatorios = new System.Windows.Forms.Panel();
             this.btnMReHistRenda = new Bunifu.Framework.UI.BunifuImageButton();
             this.label20 = new System.Windows.Forms.Label();
@@ -110,9 +89,6 @@
             this.label41 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.panelMenuRendimento = new System.Windows.Forms.Panel();
-            this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
             this.btnMRendiREgistroRenda = new Bunifu.Framework.UI.BunifuImageButton();
             this.label48 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
@@ -121,46 +97,6 @@
             this.label51 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
             this.btnMRendiMeuBalanco = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuImageButton5 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.label53 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
-            this.panelMenuFinancas = new System.Windows.Forms.Panel();
-            this.btnMFinancPayment = new Bunifu.Framework.UI.BunifuImageButton();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.btnMFinancContaCorrente = new Bunifu.Framework.UI.BunifuImageButton();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.guna2CirclePictureBox4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.btnMGeEstatistica = new Bunifu.Framework.UI.BunifuImageButton();
-            this.btnMGeExtratoBancario = new Bunifu.Framework.UI.BunifuImageButton();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.panelMenuGestao = new System.Windows.Forms.Panel();
-            this.btnMGePatrimonio = new Bunifu.Framework.UI.BunifuImageButton();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnMGeAgendaMM = new Bunifu.Framework.UI.BunifuImageButton();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.btnMGePrestarServico = new Bunifu.Framework.UI.BunifuImageButton();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.btnMGeCadastroServico = new Bunifu.Framework.UI.BunifuImageButton();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.btnMGeProforma = new Bunifu.Framework.UI.BunifuImageButton();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.btnMGeDespesas = new Bunifu.Framework.UI.BunifuImageButton();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
             this.panelexe = new System.Windows.Forms.Panel();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.timerExit = new System.Windows.Forms.Timer(this.components);
@@ -182,13 +118,6 @@
             this.panelAnim.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.panelMenuBase.SuspendLayout();
-            this.panelMenuGerenc.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGProductKeys)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGCadastroClienteVisitados)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGCadastroCliente)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGCadastroUsuario)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGCadastroFunc)).BeginInit();
             this.panelMenuRelatorios.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMReHistRenda)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMReProformas)).BeginInit();
@@ -197,25 +126,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMReMovimentoContaCorrente)).BeginInit();
             this.panelMenuRendimento.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMRendiREgistroRenda)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMRendiMeuBalanco)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton5)).BeginInit();
-            this.panelMenuFinancas.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMFinancPayment)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMFinancContaCorrente)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGeEstatistica)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGeExtratoBancario)).BeginInit();
-            this.panelMenuGestao.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGePatrimonio)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGeAgendaMM)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGePrestarServico)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGeCadastroServico)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGeProforma)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGeDespesas)).BeginInit();
             this.SuspendLayout();
             // 
             // P_I
@@ -247,12 +160,9 @@
             this.panelLateral.Controls.Add(this.btnSair);
             this.panelLateral.Controls.Add(this.btnMMProfile);
             this.panelLateral.Controls.Add(this.btnProjecto);
-            this.panelLateral.Controls.Add(this.btnGerenciamento);
             this.panelLateral.Controls.Add(this.label1);
             this.panelLateral.Controls.Add(this.guna2CirclePictureBox1);
             this.panelLateral.Controls.Add(this.btnReports);
-            this.panelLateral.Controls.Add(this.btnFinancas);
-            this.panelLateral.Controls.Add(this.btnGestao);
             this.panelLateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelLateral.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
             this.panelLateral.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
@@ -307,7 +217,7 @@
             this.btnRendimento.Image = ((System.Drawing.Image)(resources.GetObject("btnRendimento.Image")));
             this.btnRendimento.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnRendimento.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnRendimento.Location = new System.Drawing.Point(12, 273);
+            this.btnRendimento.Location = new System.Drawing.Point(12, 163);
             this.btnRendimento.Name = "btnRendimento";
             this.btnRendimento.ShadowDecoration.Parent = this.btnRendimento;
             this.btnRendimento.Size = new System.Drawing.Size(261, 45);
@@ -316,6 +226,7 @@
             this.btnRendimento.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnRendimento.TextOffset = new System.Drawing.Point(16, 0);
             this.toolTip1.SetToolTip(this.btnRendimento, "Rendimento");
+            this.btnRendimento.Click += new System.EventHandler(this.btnRendimento_Click);
             // 
             // btnMinimizar
             // 
@@ -387,7 +298,7 @@
             this.btnMMProfile.Image = ((System.Drawing.Image)(resources.GetObject("btnMMProfile.Image")));
             this.btnMMProfile.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnMMProfile.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnMMProfile.Location = new System.Drawing.Point(12, 438);
+            this.btnMMProfile.Location = new System.Drawing.Point(12, 218);
             this.btnMMProfile.Name = "btnMMProfile";
             this.btnMMProfile.ShadowDecoration.Parent = this.btnMMProfile;
             this.btnMMProfile.Size = new System.Drawing.Size(261, 45);
@@ -422,59 +333,6 @@
             this.btnProjecto.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnProjecto.TextOffset = new System.Drawing.Point(16, 0);
             this.toolTip1.SetToolTip(this.btnProjecto, "<Projectos/>");
-            // 
-            // btnGestao
-            // 
-            this.btnGestao.BorderRadius = 22;
-            this.btnGestao.CheckedState.Parent = this.btnGestao;
-            this.btnGestao.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGestao.CustomImages.Parent = this.btnGestao;
-            this.btnGestao.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnGestao.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnGestao.ForeColor = System.Drawing.Color.White;
-            this.btnGestao.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnGestao.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnGestao.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnGestao.HoverState.Image")));
-            this.btnGestao.HoverState.Parent = this.btnGestao;
-            this.btnGestao.Image = ((System.Drawing.Image)(resources.GetObject("btnGestao.Image")));
-            this.btnGestao.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnGestao.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnGestao.Location = new System.Drawing.Point(12, 218);
-            this.btnGestao.Name = "btnGestao";
-            this.btnGestao.ShadowDecoration.Parent = this.btnGestao;
-            this.btnGestao.Size = new System.Drawing.Size(261, 45);
-            this.btnGestao.TabIndex = 28;
-            this.btnGestao.Text = "Gestão";
-            this.btnGestao.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnGestao.TextOffset = new System.Drawing.Point(16, 0);
-            this.toolTip1.SetToolTip(this.btnGestao, "Gestão");
-            // 
-            // btnGerenciamento
-            // 
-            this.btnGerenciamento.BorderRadius = 22;
-            this.btnGerenciamento.CheckedState.Parent = this.btnGerenciamento;
-            this.btnGerenciamento.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGerenciamento.CustomImages.Parent = this.btnGerenciamento;
-            this.btnGerenciamento.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnGerenciamento.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnGerenciamento.ForeColor = System.Drawing.Color.White;
-            this.btnGerenciamento.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnGerenciamento.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnGerenciamento.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnGerenciamento.HoverState.Image")));
-            this.btnGerenciamento.HoverState.Parent = this.btnGerenciamento;
-            this.btnGerenciamento.Image = ((System.Drawing.Image)(resources.GetObject("btnGerenciamento.Image")));
-            this.btnGerenciamento.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnGerenciamento.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnGerenciamento.Location = new System.Drawing.Point(12, 163);
-            this.btnGerenciamento.Name = "btnGerenciamento";
-            this.btnGerenciamento.ShadowDecoration.Parent = this.btnGerenciamento;
-            this.btnGerenciamento.Size = new System.Drawing.Size(261, 45);
-            this.btnGerenciamento.TabIndex = 27;
-            this.btnGerenciamento.Text = "Gerenciamento";
-            this.btnGerenciamento.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnGerenciamento.TextOffset = new System.Drawing.Point(16, 0);
-            this.toolTip1.SetToolTip(this.btnGerenciamento, "Gerenciamento");
-            this.btnGerenciamento.Click += new System.EventHandler(this.btnGerenciamento_Click);
             // 
             // label1
             // 
@@ -515,7 +373,7 @@
             this.btnReports.Image = ((System.Drawing.Image)(resources.GetObject("btnReports.Image")));
             this.btnReports.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnReports.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnReports.Location = new System.Drawing.Point(12, 383);
+            this.btnReports.Location = new System.Drawing.Point(12, 273);
             this.btnReports.Name = "btnReports";
             this.btnReports.ShadowDecoration.Parent = this.btnReports;
             this.btnReports.Size = new System.Drawing.Size(261, 45);
@@ -524,32 +382,7 @@
             this.btnReports.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnReports.TextOffset = new System.Drawing.Point(16, 0);
             this.toolTip1.SetToolTip(this.btnReports, "Relatórios");
-            // 
-            // btnFinancas
-            // 
-            this.btnFinancas.BorderRadius = 22;
-            this.btnFinancas.CheckedState.Parent = this.btnFinancas;
-            this.btnFinancas.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFinancas.CustomImages.Parent = this.btnFinancas;
-            this.btnFinancas.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnFinancas.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnFinancas.ForeColor = System.Drawing.Color.White;
-            this.btnFinancas.HoverState.FillColor = System.Drawing.Color.White;
-            this.btnFinancas.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnFinancas.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnFinancas.HoverState.Image")));
-            this.btnFinancas.HoverState.Parent = this.btnFinancas;
-            this.btnFinancas.Image = ((System.Drawing.Image)(resources.GetObject("btnFinancas.Image")));
-            this.btnFinancas.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnFinancas.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnFinancas.Location = new System.Drawing.Point(12, 328);
-            this.btnFinancas.Name = "btnFinancas";
-            this.btnFinancas.ShadowDecoration.Parent = this.btnFinancas;
-            this.btnFinancas.Size = new System.Drawing.Size(261, 45);
-            this.btnFinancas.TabIndex = 34;
-            this.btnFinancas.Text = "<Finanças$>";
-            this.btnFinancas.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnFinancas.TextOffset = new System.Drawing.Point(16, 0);
-            this.toolTip1.SetToolTip(this.btnFinancas, "<Finanças$>");
+            this.btnReports.Click += new System.EventHandler(this.btnReports_Click);
             // 
             // P_L
             // 
@@ -902,11 +735,8 @@
             // panelMenuBase
             // 
             this.panelMenuBase.Controls.Add(this.btnCloseMenu);
-            this.panelMenuBase.Controls.Add(this.panelMenuGerenc);
-            this.panelMenuBase.Controls.Add(this.panelMenuRelatorios);
             this.panelMenuBase.Controls.Add(this.panelMenuRendimento);
-            this.panelMenuBase.Controls.Add(this.panelMenuFinancas);
-            this.panelMenuBase.Controls.Add(this.panelMenuGestao);
+            this.panelMenuBase.Controls.Add(this.panelMenuRelatorios);
             this.panelMenuBase.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenuBase.Location = new System.Drawing.Point(0, 0);
             this.panelMenuBase.Name = "panelMenuBase";
@@ -940,234 +770,6 @@
             this.btnCloseMenu.TextOffset = new System.Drawing.Point(16, 0);
             this.toolTip1.SetToolTip(this.btnCloseMenu, "Close Menu");
             this.btnCloseMenu.Click += new System.EventHandler(this.btnCloseMenu_Click);
-            // 
-            // panelMenuGerenc
-            // 
-            this.panelMenuGerenc.Controls.Add(this.btnMGProductKeys);
-            this.panelMenuGerenc.Controls.Add(this.lblMGProductKeysDescr);
-            this.panelMenuGerenc.Controls.Add(this.lblMGProductKeysTitle);
-            this.panelMenuGerenc.Controls.Add(this.btnMGCadastroClienteVisitados);
-            this.panelMenuGerenc.Controls.Add(this.label31);
-            this.panelMenuGerenc.Controls.Add(this.label32);
-            this.panelMenuGerenc.Controls.Add(this.guna2CirclePictureBox3);
-            this.panelMenuGerenc.Controls.Add(this.btnMGCadastroCliente);
-            this.panelMenuGerenc.Controls.Add(this.label9);
-            this.panelMenuGerenc.Controls.Add(this.label10);
-            this.panelMenuGerenc.Controls.Add(this.btnMGCadastroUsuario);
-            this.panelMenuGerenc.Controls.Add(this.label7);
-            this.panelMenuGerenc.Controls.Add(this.label8);
-            this.panelMenuGerenc.Controls.Add(this.btnMGCadastroFunc);
-            this.panelMenuGerenc.Controls.Add(this.label6);
-            this.panelMenuGerenc.Controls.Add(this.label2);
-            this.panelMenuGerenc.Controls.Add(this.label5);
-            this.panelMenuGerenc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMenuGerenc.Location = new System.Drawing.Point(0, 0);
-            this.panelMenuGerenc.Name = "panelMenuGerenc";
-            this.panelMenuGerenc.Size = new System.Drawing.Size(355, 575);
-            this.panelMenuGerenc.TabIndex = 0;
-            // 
-            // btnMGProductKeys
-            // 
-            this.btnMGProductKeys.BackColor = System.Drawing.Color.Transparent;
-            this.btnMGProductKeys.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMGProductKeys.Image = ((System.Drawing.Image)(resources.GetObject("btnMGProductKeys.Image")));
-            this.btnMGProductKeys.ImageActive = null;
-            this.btnMGProductKeys.Location = new System.Drawing.Point(13, 437);
-            this.btnMGProductKeys.Name = "btnMGProductKeys";
-            this.btnMGProductKeys.Size = new System.Drawing.Size(50, 50);
-            this.btnMGProductKeys.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMGProductKeys.TabIndex = 41;
-            this.btnMGProductKeys.TabStop = false;
-            this.btnMGProductKeys.Zoom = 10;
-            // 
-            // lblMGProductKeysDescr
-            // 
-            this.lblMGProductKeysDescr.AutoSize = true;
-            this.lblMGProductKeysDescr.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMGProductKeysDescr.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.lblMGProductKeysDescr.Location = new System.Drawing.Point(82, 463);
-            this.lblMGProductKeysDescr.Name = "lblMGProductKeysDescr";
-            this.lblMGProductKeysDescr.Size = new System.Drawing.Size(263, 34);
-            this.lblMGProductKeysDescr.TabIndex = 40;
-            this.lblMGProductKeysDescr.Text = "Ver o códigos de activação\r\nde cada instituição que utiliza o CARACOL.";
-            // 
-            // lblMGProductKeysTitle
-            // 
-            this.lblMGProductKeysTitle.AutoSize = true;
-            this.lblMGProductKeysTitle.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMGProductKeysTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.lblMGProductKeysTitle.Location = new System.Drawing.Point(82, 437);
-            this.lblMGProductKeysTitle.Name = "lblMGProductKeysTitle";
-            this.lblMGProductKeysTitle.Size = new System.Drawing.Size(97, 16);
-            this.lblMGProductKeysTitle.TabIndex = 39;
-            this.lblMGProductKeysTitle.Text = "Products Keys";
-            // 
-            // btnMGCadastroClienteVisitados
-            // 
-            this.btnMGCadastroClienteVisitados.BackColor = System.Drawing.Color.Transparent;
-            this.btnMGCadastroClienteVisitados.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMGCadastroClienteVisitados.Image = ((System.Drawing.Image)(resources.GetObject("btnMGCadastroClienteVisitados.Image")));
-            this.btnMGCadastroClienteVisitados.ImageActive = null;
-            this.btnMGCadastroClienteVisitados.Location = new System.Drawing.Point(13, 349);
-            this.btnMGCadastroClienteVisitados.Name = "btnMGCadastroClienteVisitados";
-            this.btnMGCadastroClienteVisitados.Size = new System.Drawing.Size(50, 50);
-            this.btnMGCadastroClienteVisitados.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMGCadastroClienteVisitados.TabIndex = 38;
-            this.btnMGCadastroClienteVisitados.TabStop = false;
-            this.btnMGCadastroClienteVisitados.Zoom = 10;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label31.Location = new System.Drawing.Point(82, 375);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(222, 34);
-            this.label31.TabIndex = 37;
-            this.label31.Text = "Para cadastrar dados de clientes \r\nvisitados no momento do marketing";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label32.Location = new System.Drawing.Point(82, 349);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(229, 16);
-            this.label32.TabIndex = 36;
-            this.label32.Text = "Cadastro de Instituições Visitadas";
-            // 
-            // guna2CirclePictureBox3
-            // 
-            this.guna2CirclePictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox3.Image")));
-            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(13, 14);
-            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
-            this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox3.ShadowDecoration.Parent = this.guna2CirclePictureBox3;
-            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(30, 30);
-            this.guna2CirclePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox3.TabIndex = 35;
-            this.guna2CirclePictureBox3.TabStop = false;
-            // 
-            // btnMGCadastroCliente
-            // 
-            this.btnMGCadastroCliente.BackColor = System.Drawing.Color.Transparent;
-            this.btnMGCadastroCliente.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMGCadastroCliente.Image = ((System.Drawing.Image)(resources.GetObject("btnMGCadastroCliente.Image")));
-            this.btnMGCadastroCliente.ImageActive = null;
-            this.btnMGCadastroCliente.Location = new System.Drawing.Point(13, 260);
-            this.btnMGCadastroCliente.Name = "btnMGCadastroCliente";
-            this.btnMGCadastroCliente.Size = new System.Drawing.Size(50, 50);
-            this.btnMGCadastroCliente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMGCadastroCliente.TabIndex = 34;
-            this.btnMGCadastroCliente.TabStop = false;
-            this.btnMGCadastroCliente.Zoom = 10;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label9.Location = new System.Drawing.Point(82, 286);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(210, 34);
-            this.label9.TabIndex = 33;
-            this.label9.Text = "Para cadastrar ou editar dados já \r\nexistente dos clientes.";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label10.Location = new System.Drawing.Point(82, 260);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(193, 16);
-            this.label10.TabIndex = 32;
-            this.label10.Text = "Cadastro de Nossos Clientes";
-            // 
-            // btnMGCadastroUsuario
-            // 
-            this.btnMGCadastroUsuario.BackColor = System.Drawing.Color.Transparent;
-            this.btnMGCadastroUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMGCadastroUsuario.Image = ((System.Drawing.Image)(resources.GetObject("btnMGCadastroUsuario.Image")));
-            this.btnMGCadastroUsuario.ImageActive = null;
-            this.btnMGCadastroUsuario.Location = new System.Drawing.Point(13, 167);
-            this.btnMGCadastroUsuario.Name = "btnMGCadastroUsuario";
-            this.btnMGCadastroUsuario.Size = new System.Drawing.Size(50, 50);
-            this.btnMGCadastroUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMGCadastroUsuario.TabIndex = 31;
-            this.btnMGCadastroUsuario.TabStop = false;
-            this.btnMGCadastroUsuario.Zoom = 10;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label7.Location = new System.Drawing.Point(82, 193);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(210, 34);
-            this.label7.TabIndex = 30;
-            this.label7.Text = "Para cadastrar ou editar dados já \r\nexistente da conta de usuário.";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label8.Location = new System.Drawing.Point(82, 167);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(147, 16);
-            this.label8.TabIndex = 29;
-            this.label8.Text = "Cadastro de Usuários";
-            // 
-            // btnMGCadastroFunc
-            // 
-            this.btnMGCadastroFunc.BackColor = System.Drawing.Color.Transparent;
-            this.btnMGCadastroFunc.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMGCadastroFunc.Image = ((System.Drawing.Image)(resources.GetObject("btnMGCadastroFunc.Image")));
-            this.btnMGCadastroFunc.ImageActive = null;
-            this.btnMGCadastroFunc.Location = new System.Drawing.Point(13, 76);
-            this.btnMGCadastroFunc.Name = "btnMGCadastroFunc";
-            this.btnMGCadastroFunc.Size = new System.Drawing.Size(50, 50);
-            this.btnMGCadastroFunc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMGCadastroFunc.TabIndex = 27;
-            this.btnMGCadastroFunc.TabStop = false;
-            this.btnMGCadastroFunc.Zoom = 10;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label6.Location = new System.Drawing.Point(82, 102);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(210, 34);
-            this.label6.TabIndex = 24;
-            this.label6.Text = "Para cadastrar ou editar dados já \r\nexistente dos funcionários.";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label2.Location = new System.Drawing.Point(82, 76);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(169, 16);
-            this.label2.TabIndex = 23;
-            this.label2.Text = "Cadastro de Funcionário";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label5.Location = new System.Drawing.Point(50, 21);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(109, 16);
-            this.label5.TabIndex = 22;
-            this.label5.Text = "Gerenciamento";
             // 
             // panelMenuRelatorios
             // 
@@ -1400,9 +1002,6 @@
             // 
             // panelMenuRendimento
             // 
-            this.panelMenuRendimento.Controls.Add(this.bunifuImageButton2);
-            this.panelMenuRendimento.Controls.Add(this.label46);
-            this.panelMenuRendimento.Controls.Add(this.label47);
             this.panelMenuRendimento.Controls.Add(this.btnMRendiREgistroRenda);
             this.panelMenuRendimento.Controls.Add(this.label48);
             this.panelMenuRendimento.Controls.Add(this.label49);
@@ -1411,53 +1010,11 @@
             this.panelMenuRendimento.Controls.Add(this.label51);
             this.panelMenuRendimento.Controls.Add(this.label52);
             this.panelMenuRendimento.Controls.Add(this.btnMRendiMeuBalanco);
-            this.panelMenuRendimento.Controls.Add(this.bunifuImageButton5);
-            this.panelMenuRendimento.Controls.Add(this.label53);
-            this.panelMenuRendimento.Controls.Add(this.label54);
             this.panelMenuRendimento.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMenuRendimento.Location = new System.Drawing.Point(0, 0);
             this.panelMenuRendimento.Name = "panelMenuRendimento";
             this.panelMenuRendimento.Size = new System.Drawing.Size(355, 575);
             this.panelMenuRendimento.TabIndex = 24;
-            // 
-            // bunifuImageButton2
-            // 
-            this.bunifuImageButton2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.Image")));
-            this.bunifuImageButton2.ImageActive = null;
-            this.bunifuImageButton2.Location = new System.Drawing.Point(13, 349);
-            this.bunifuImageButton2.Name = "bunifuImageButton2";
-            this.bunifuImageButton2.Size = new System.Drawing.Size(50, 50);
-            this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton2.TabIndex = 34;
-            this.bunifuImageButton2.TabStop = false;
-            this.bunifuImageButton2.Visible = false;
-            this.bunifuImageButton2.Zoom = 10;
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label46.Location = new System.Drawing.Point(82, 375);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(181, 34);
-            this.label46.TabIndex = 33;
-            this.label46.Text = "Ver o histórico de saídas num\r\nintervalo de data.";
-            this.label46.Visible = false;
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label47.Location = new System.Drawing.Point(82, 349);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(150, 16);
-            this.label47.TabIndex = 32;
-            this.label47.Text = "Histórico de Despesas";
-            this.label47.Visible = false;
             // 
             // btnMRendiREgistroRenda
             // 
@@ -1555,510 +1112,6 @@
             this.btnMRendiMeuBalanco.TabStop = false;
             this.btnMRendiMeuBalanco.Zoom = 10;
             // 
-            // bunifuImageButton5
-            // 
-            this.bunifuImageButton5.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuImageButton5.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton5.Image")));
-            this.bunifuImageButton5.ImageActive = null;
-            this.bunifuImageButton5.Location = new System.Drawing.Point(13, 260);
-            this.bunifuImageButton5.Name = "bunifuImageButton5";
-            this.bunifuImageButton5.Size = new System.Drawing.Size(50, 50);
-            this.bunifuImageButton5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton5.TabIndex = 49;
-            this.bunifuImageButton5.TabStop = false;
-            this.bunifuImageButton5.Visible = false;
-            this.bunifuImageButton5.Zoom = 10;
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label53.Location = new System.Drawing.Point(82, 286);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(225, 34);
-            this.label53.TabIndex = 48;
-            this.label53.Text = "Ver os extratos das operações feitas\r\nno banco num intervalo de tempo.";
-            this.label53.Visible = false;
-            // 
-            // label54
-            // 
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label54.Location = new System.Drawing.Point(82, 260);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(144, 16);
-            this.label54.TabIndex = 47;
-            this.label54.Text = "Operações Bancária";
-            this.label54.Visible = false;
-            // 
-            // panelMenuFinancas
-            // 
-            this.panelMenuFinancas.Controls.Add(this.btnMFinancPayment);
-            this.panelMenuFinancas.Controls.Add(this.label39);
-            this.panelMenuFinancas.Controls.Add(this.label40);
-            this.panelMenuFinancas.Controls.Add(this.btnMFinancContaCorrente);
-            this.panelMenuFinancas.Controls.Add(this.label43);
-            this.panelMenuFinancas.Controls.Add(this.label44);
-            this.panelMenuFinancas.Controls.Add(this.label45);
-            this.panelMenuFinancas.Controls.Add(this.guna2CirclePictureBox4);
-            this.panelMenuFinancas.Controls.Add(this.label33);
-            this.panelMenuFinancas.Controls.Add(this.label34);
-            this.panelMenuFinancas.Controls.Add(this.btnMGeEstatistica);
-            this.panelMenuFinancas.Controls.Add(this.btnMGeExtratoBancario);
-            this.panelMenuFinancas.Controls.Add(this.label35);
-            this.panelMenuFinancas.Controls.Add(this.label36);
-            this.panelMenuFinancas.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMenuFinancas.Location = new System.Drawing.Point(0, 0);
-            this.panelMenuFinancas.Name = "panelMenuFinancas";
-            this.panelMenuFinancas.Size = new System.Drawing.Size(355, 575);
-            this.panelMenuFinancas.TabIndex = 23;
-            // 
-            // btnMFinancPayment
-            // 
-            this.btnMFinancPayment.BackColor = System.Drawing.Color.Transparent;
-            this.btnMFinancPayment.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMFinancPayment.Image = ((System.Drawing.Image)(resources.GetObject("btnMFinancPayment.Image")));
-            this.btnMFinancPayment.ImageActive = null;
-            this.btnMFinancPayment.Location = new System.Drawing.Point(13, 167);
-            this.btnMFinancPayment.Name = "btnMFinancPayment";
-            this.btnMFinancPayment.Size = new System.Drawing.Size(50, 50);
-            this.btnMFinancPayment.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMFinancPayment.TabIndex = 34;
-            this.btnMFinancPayment.TabStop = false;
-            this.btnMFinancPayment.Zoom = 10;
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label39.Location = new System.Drawing.Point(82, 193);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(223, 34);
-            this.label39.TabIndex = 33;
-            this.label39.Text = "Efectuar os pagamentos solicitados \r\npelos funcionários.";
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label40.Location = new System.Drawing.Point(82, 167);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(88, 16);
-            this.label40.TabIndex = 32;
-            this.label40.Text = "Pagamentos";
-            // 
-            // btnMFinancContaCorrente
-            // 
-            this.btnMFinancContaCorrente.BackColor = System.Drawing.Color.Transparent;
-            this.btnMFinancContaCorrente.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMFinancContaCorrente.Image = ((System.Drawing.Image)(resources.GetObject("btnMFinancContaCorrente.Image")));
-            this.btnMFinancContaCorrente.ImageActive = null;
-            this.btnMFinancContaCorrente.Location = new System.Drawing.Point(13, 76);
-            this.btnMFinancContaCorrente.Name = "btnMFinancContaCorrente";
-            this.btnMFinancContaCorrente.Size = new System.Drawing.Size(50, 50);
-            this.btnMFinancContaCorrente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMFinancContaCorrente.TabIndex = 27;
-            this.btnMFinancContaCorrente.TabStop = false;
-            this.btnMFinancContaCorrente.Zoom = 10;
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label43.Location = new System.Drawing.Point(82, 102);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(245, 34);
-            this.label43.TabIndex = 24;
-            this.label43.Text = "Ver o saldo existente na conta empresa\r\nisto é, no caixa, depósito a ordem, etc.." +
-    ".";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label44.Location = new System.Drawing.Point(82, 76);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(105, 16);
-            this.label44.TabIndex = 23;
-            this.label44.Text = "Conta corrente";
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label45.Location = new System.Drawing.Point(50, 21);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(89, 16);
-            this.label45.TabIndex = 22;
-            this.label45.Text = "<Finanças$>";
-            // 
-            // guna2CirclePictureBox4
-            // 
-            this.guna2CirclePictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox4.Image")));
-            this.guna2CirclePictureBox4.Location = new System.Drawing.Point(13, 14);
-            this.guna2CirclePictureBox4.Name = "guna2CirclePictureBox4";
-            this.guna2CirclePictureBox4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox4.ShadowDecoration.Parent = this.guna2CirclePictureBox4;
-            this.guna2CirclePictureBox4.Size = new System.Drawing.Size(30, 30);
-            this.guna2CirclePictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox4.TabIndex = 40;
-            this.guna2CirclePictureBox4.TabStop = false;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label33.Location = new System.Drawing.Point(82, 375);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(249, 34);
-            this.label33.TabIndex = 44;
-            this.label33.Text = "Ver as Receitas arrecadadas e despesas\r\nde modo a ter o controlo financeiro.";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label34.Location = new System.Drawing.Point(82, 349);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(145, 16);
-            this.label34.TabIndex = 43;
-            this.label34.Text = "Estatística Financeira";
-            // 
-            // btnMGeEstatistica
-            // 
-            this.btnMGeEstatistica.BackColor = System.Drawing.Color.Transparent;
-            this.btnMGeEstatistica.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMGeEstatistica.Image = ((System.Drawing.Image)(resources.GetObject("btnMGeEstatistica.Image")));
-            this.btnMGeEstatistica.ImageActive = null;
-            this.btnMGeEstatistica.Location = new System.Drawing.Point(13, 349);
-            this.btnMGeEstatistica.Name = "btnMGeEstatistica";
-            this.btnMGeEstatistica.Size = new System.Drawing.Size(50, 50);
-            this.btnMGeEstatistica.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMGeEstatistica.TabIndex = 45;
-            this.btnMGeEstatistica.TabStop = false;
-            this.btnMGeEstatistica.Zoom = 10;
-            // 
-            // btnMGeExtratoBancario
-            // 
-            this.btnMGeExtratoBancario.BackColor = System.Drawing.Color.Transparent;
-            this.btnMGeExtratoBancario.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMGeExtratoBancario.Image = ((System.Drawing.Image)(resources.GetObject("btnMGeExtratoBancario.Image")));
-            this.btnMGeExtratoBancario.ImageActive = null;
-            this.btnMGeExtratoBancario.Location = new System.Drawing.Point(13, 260);
-            this.btnMGeExtratoBancario.Name = "btnMGeExtratoBancario";
-            this.btnMGeExtratoBancario.Size = new System.Drawing.Size(50, 50);
-            this.btnMGeExtratoBancario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMGeExtratoBancario.TabIndex = 49;
-            this.btnMGeExtratoBancario.TabStop = false;
-            this.btnMGeExtratoBancario.Zoom = 10;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label35.Location = new System.Drawing.Point(82, 286);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(225, 34);
-            this.label35.TabIndex = 48;
-            this.label35.Text = "Ver os extratos das operações feitas\r\nno banco num intervalo de tempo.";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label36.Location = new System.Drawing.Point(82, 260);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(144, 16);
-            this.label36.TabIndex = 47;
-            this.label36.Text = "Operações Bancária";
-            // 
-            // panelMenuGestao
-            // 
-            this.panelMenuGestao.AutoScroll = true;
-            this.panelMenuGestao.Controls.Add(this.btnMGePatrimonio);
-            this.panelMenuGestao.Controls.Add(this.label37);
-            this.panelMenuGestao.Controls.Add(this.label38);
-            this.panelMenuGestao.Controls.Add(this.panel3);
-            this.panelMenuGestao.Controls.Add(this.pictureBox1);
-            this.panelMenuGestao.Controls.Add(this.btnMGeAgendaMM);
-            this.panelMenuGestao.Controls.Add(this.label11);
-            this.panelMenuGestao.Controls.Add(this.label12);
-            this.panelMenuGestao.Controls.Add(this.btnMGePrestarServico);
-            this.panelMenuGestao.Controls.Add(this.label13);
-            this.panelMenuGestao.Controls.Add(this.label14);
-            this.panelMenuGestao.Controls.Add(this.btnMGeCadastroServico);
-            this.panelMenuGestao.Controls.Add(this.label15);
-            this.panelMenuGestao.Controls.Add(this.label16);
-            this.panelMenuGestao.Controls.Add(this.label17);
-            this.panelMenuGestao.Controls.Add(this.btnMGeProforma);
-            this.panelMenuGestao.Controls.Add(this.label18);
-            this.panelMenuGestao.Controls.Add(this.label19);
-            this.panelMenuGestao.Controls.Add(this.btnMGeDespesas);
-            this.panelMenuGestao.Controls.Add(this.label29);
-            this.panelMenuGestao.Controls.Add(this.label30);
-            this.panelMenuGestao.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMenuGestao.Location = new System.Drawing.Point(0, 0);
-            this.panelMenuGestao.Name = "panelMenuGestao";
-            this.panelMenuGestao.Size = new System.Drawing.Size(355, 575);
-            this.panelMenuGestao.TabIndex = 20;
-            // 
-            // btnMGePatrimonio
-            // 
-            this.btnMGePatrimonio.BackColor = System.Drawing.Color.Transparent;
-            this.btnMGePatrimonio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMGePatrimonio.Image = ((System.Drawing.Image)(resources.GetObject("btnMGePatrimonio.Image")));
-            this.btnMGePatrimonio.ImageActive = null;
-            this.btnMGePatrimonio.Location = new System.Drawing.Point(13, 544);
-            this.btnMGePatrimonio.Name = "btnMGePatrimonio";
-            this.btnMGePatrimonio.Size = new System.Drawing.Size(50, 50);
-            this.btnMGePatrimonio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMGePatrimonio.TabIndex = 52;
-            this.btnMGePatrimonio.TabStop = false;
-            this.btnMGePatrimonio.Zoom = 10;
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label37.Location = new System.Drawing.Point(82, 570);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(184, 34);
-            this.label37.TabIndex = 51;
-            this.label37.Text = "Registrar todos os bens que a \r\nempresa possui.";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label38.Location = new System.Drawing.Point(82, 544);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(77, 16);
-            this.label38.TabIndex = 50;
-            this.label38.Text = "Património";
-            // 
-            // panel3
-            // 
-            this.panel3.Location = new System.Drawing.Point(80, 613);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 20);
-            this.panel3.TabIndex = 46;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(13, 14);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 36;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btnMGeAgendaMM
-            // 
-            this.btnMGeAgendaMM.BackColor = System.Drawing.Color.Transparent;
-            this.btnMGeAgendaMM.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMGeAgendaMM.Image = ((System.Drawing.Image)(resources.GetObject("btnMGeAgendaMM.Image")));
-            this.btnMGeAgendaMM.ImageActive = null;
-            this.btnMGeAgendaMM.Location = new System.Drawing.Point(13, 437);
-            this.btnMGeAgendaMM.Name = "btnMGeAgendaMM";
-            this.btnMGeAgendaMM.Size = new System.Drawing.Size(50, 50);
-            this.btnMGeAgendaMM.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMGeAgendaMM.TabIndex = 34;
-            this.btnMGeAgendaMM.TabStop = false;
-            this.btnMGeAgendaMM.Zoom = 10;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label11.Location = new System.Drawing.Point(82, 463);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(225, 51);
-            this.label11.TabIndex = 33;
-            this.label11.Text = "Registrar as actividades feitas pelos \r\nfuncionários bem como activiades \r\nfutura" +
-    "s.";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label12.Location = new System.Drawing.Point(82, 437);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(89, 16);
-            this.label12.TabIndex = 32;
-            this.label12.Text = "Agenda MM";
-            // 
-            // btnMGePrestarServico
-            // 
-            this.btnMGePrestarServico.BackColor = System.Drawing.Color.Transparent;
-            this.btnMGePrestarServico.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMGePrestarServico.Image = ((System.Drawing.Image)(resources.GetObject("btnMGePrestarServico.Image")));
-            this.btnMGePrestarServico.ImageActive = null;
-            this.btnMGePrestarServico.Location = new System.Drawing.Point(13, 156);
-            this.btnMGePrestarServico.Name = "btnMGePrestarServico";
-            this.btnMGePrestarServico.Size = new System.Drawing.Size(50, 50);
-            this.btnMGePrestarServico.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMGePrestarServico.TabIndex = 31;
-            this.btnMGePrestarServico.TabStop = false;
-            this.btnMGePrestarServico.Zoom = 10;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label13.Location = new System.Drawing.Point(82, 182);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(177, 34);
-            this.label13.TabIndex = 30;
-            this.label13.Text = "Para a emissão de facturas\r\ndos serviços a ser prestados.";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label14.Location = new System.Drawing.Point(82, 156);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(102, 16);
-            this.label14.TabIndex = 29;
-            this.label14.Text = "Prestar serviço";
-            // 
-            // btnMGeCadastroServico
-            // 
-            this.btnMGeCadastroServico.BackColor = System.Drawing.Color.Transparent;
-            this.btnMGeCadastroServico.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMGeCadastroServico.Image = ((System.Drawing.Image)(resources.GetObject("btnMGeCadastroServico.Image")));
-            this.btnMGeCadastroServico.ImageActive = null;
-            this.btnMGeCadastroServico.Location = new System.Drawing.Point(13, 73);
-            this.btnMGeCadastroServico.Name = "btnMGeCadastroServico";
-            this.btnMGeCadastroServico.Size = new System.Drawing.Size(50, 50);
-            this.btnMGeCadastroServico.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMGeCadastroServico.TabIndex = 27;
-            this.btnMGeCadastroServico.TabStop = false;
-            this.btnMGeCadastroServico.Zoom = 10;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label15.Location = new System.Drawing.Point(82, 99);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(230, 34);
-            this.label15.TabIndex = 24;
-            this.label15.Text = "Para cadastrar ou editar dados já \r\nexistente dos serviços a ser prestado.";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label16.Location = new System.Drawing.Point(82, 73);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(146, 16);
-            this.label16.TabIndex = 23;
-            this.label16.Text = "Cadastro de Serviços";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label17.Location = new System.Drawing.Point(50, 21);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(54, 16);
-            this.label17.TabIndex = 22;
-            this.label17.Text = "Gestão";
-            // 
-            // btnMGeProforma
-            // 
-            this.btnMGeProforma.BackColor = System.Drawing.Color.Transparent;
-            this.btnMGeProforma.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMGeProforma.Image = ((System.Drawing.Image)(resources.GetObject("btnMGeProforma.Image")));
-            this.btnMGeProforma.ImageActive = null;
-            this.btnMGeProforma.Location = new System.Drawing.Point(13, 245);
-            this.btnMGeProforma.Name = "btnMGeProforma";
-            this.btnMGeProforma.Size = new System.Drawing.Size(50, 50);
-            this.btnMGeProforma.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMGeProforma.TabIndex = 39;
-            this.btnMGeProforma.TabStop = false;
-            this.btnMGeProforma.Zoom = 10;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label18.Location = new System.Drawing.Point(82, 271);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(240, 34);
-            this.label18.TabIndex = 38;
-            this.label18.Text = "Para a emissão de facturas\r\nproformas dos serviços a ser prestados.";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label19.Location = new System.Drawing.Point(82, 245);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(66, 16);
-            this.label19.TabIndex = 37;
-            this.label19.Text = "Proforma";
-            // 
-            // btnMGeDespesas
-            // 
-            this.btnMGeDespesas.BackColor = System.Drawing.Color.Transparent;
-            this.btnMGeDespesas.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMGeDespesas.Image = ((System.Drawing.Image)(resources.GetObject("btnMGeDespesas.Image")));
-            this.btnMGeDespesas.ImageActive = null;
-            this.btnMGeDespesas.Location = new System.Drawing.Point(13, 335);
-            this.btnMGeDespesas.Name = "btnMGeDespesas";
-            this.btnMGeDespesas.Size = new System.Drawing.Size(50, 50);
-            this.btnMGeDespesas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMGeDespesas.TabIndex = 42;
-            this.btnMGeDespesas.TabStop = false;
-            this.btnMGeDespesas.Zoom = 10;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label29.Location = new System.Drawing.Point(82, 361);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(237, 34);
-            this.label29.TabIndex = 41;
-            this.label29.Text = "Registrar e Ver o histórico de despesas\r\nfeitas num intervalo de data.";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label30.Location = new System.Drawing.Point(82, 335);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(69, 16);
-            this.label30.TabIndex = 40;
-            this.label30.Text = "Despesas";
-            // 
             // panelexe
             // 
             this.panelexe.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -2111,14 +1164,6 @@
             this.panelAnim.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.panelMenuBase.ResumeLayout(false);
-            this.panelMenuGerenc.ResumeLayout(false);
-            this.panelMenuGerenc.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGProductKeys)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGCadastroClienteVisitados)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGCadastroCliente)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGCadastroUsuario)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGCadastroFunc)).EndInit();
             this.panelMenuRelatorios.ResumeLayout(false);
             this.panelMenuRelatorios.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMReHistRenda)).EndInit();
@@ -2129,27 +1174,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnMReMovimentoContaCorrente)).EndInit();
             this.panelMenuRendimento.ResumeLayout(false);
             this.panelMenuRendimento.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMRendiREgistroRenda)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMRendiMeuBalanco)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton5)).EndInit();
-            this.panelMenuFinancas.ResumeLayout(false);
-            this.panelMenuFinancas.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMFinancPayment)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMFinancContaCorrente)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGeEstatistica)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGeExtratoBancario)).EndInit();
-            this.panelMenuGestao.ResumeLayout(false);
-            this.panelMenuGestao.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGePatrimonio)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGeAgendaMM)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGePrestarServico)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGeCadastroServico)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGeProforma)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMGeDespesas)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2187,24 +1214,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.Panel panelMenuBase;
         private Guna.UI2.WinForms.Guna2Button btnCloseMenu;
-        private System.Windows.Forms.Panel panelMenuGerenc;
-        private Bunifu.Framework.UI.BunifuImageButton btnMGProductKeys;
-        private System.Windows.Forms.Label lblMGProductKeysDescr;
-        private System.Windows.Forms.Label lblMGProductKeysTitle;
-        private Bunifu.Framework.UI.BunifuImageButton btnMGCadastroClienteVisitados;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label32;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox3;
-        private Bunifu.Framework.UI.BunifuImageButton btnMGCadastroCliente;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private Bunifu.Framework.UI.BunifuImageButton btnMGCadastroUsuario;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private Bunifu.Framework.UI.BunifuImageButton btnMGCadastroFunc;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panelMenuRelatorios;
         private Bunifu.Framework.UI.BunifuImageButton btnMReHistRenda;
         private System.Windows.Forms.Label label20;
@@ -2224,9 +1233,6 @@
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Panel panelMenuRendimento;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton2;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label label47;
         private Bunifu.Framework.UI.BunifuImageButton btnMRendiREgistroRenda;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label49;
@@ -2235,46 +1241,6 @@
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Label label52;
         private Bunifu.Framework.UI.BunifuImageButton btnMRendiMeuBalanco;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton5;
-        private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.Panel panelMenuFinancas;
-        private Bunifu.Framework.UI.BunifuImageButton btnMFinancPayment;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label40;
-        private Bunifu.Framework.UI.BunifuImageButton btnMFinancContaCorrente;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label label45;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox4;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
-        private Bunifu.Framework.UI.BunifuImageButton btnMGeEstatistica;
-        private Bunifu.Framework.UI.BunifuImageButton btnMGeExtratoBancario;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Panel panelMenuGestao;
-        private Bunifu.Framework.UI.BunifuImageButton btnMGePatrimonio;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private Bunifu.Framework.UI.BunifuImageButton btnMGeAgendaMM;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private Bunifu.Framework.UI.BunifuImageButton btnMGePrestarServico;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private Bunifu.Framework.UI.BunifuImageButton btnMGeCadastroServico;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private Bunifu.Framework.UI.BunifuImageButton btnMGeProforma;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private Bunifu.Framework.UI.BunifuImageButton btnMGeDespesas;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Panel panelexe;
         private Guna.UI2.WinForms.Guna2Button btnmax;
         private Guna.UI2.WinForms.Guna2Button btnRendimento;
@@ -2282,12 +1248,9 @@
         private Guna.UI2.WinForms.Guna2Button btnSair;
         private Guna.UI2.WinForms.Guna2Button btnMMProfile;
         private Guna.UI2.WinForms.Guna2Button btnProjecto;
-        private Guna.UI2.WinForms.Guna2Button btnGestao;
-        private Guna.UI2.WinForms.Guna2Button btnGerenciamento;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private Guna.UI2.WinForms.Guna2Button btnReports;
-        private Guna.UI2.WinForms.Guna2Button btnFinancas;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Timer timerExit;
 
