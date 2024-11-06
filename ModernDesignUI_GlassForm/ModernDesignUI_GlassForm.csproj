@@ -59,10 +59,19 @@
     <Compile Include="Forms Principal\DashboardPrincipal.Designer.cs">
       <DependentUpon>DashboardPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms Principal\FormProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Principal\FormProject.Designer.cs">
+      <DependentUpon>FormProject.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms Principal\DashboardPrincipal.resx">
       <DependentUpon>DashboardPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms Principal\FormProject.resx">
+      <DependentUpon>FormProject.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
