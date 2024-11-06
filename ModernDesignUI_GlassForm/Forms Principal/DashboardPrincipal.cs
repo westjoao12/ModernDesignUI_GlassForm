@@ -1,4 +1,5 @@
 ﻿using Bunifu.Framework.UI;
+using BunifuAnimatorNS;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -24,7 +25,26 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
             panelNOTIFICACAO.SendToBack();
             panelCabecalho.BottomSahddow = false;
         }
+
+        BunifuTransition T1 = new BunifuTransition();
+        BunifuTransition T2 = new BunifuTransition();
+
         #region Functions
+
+
+        private Form activeForm = null;
+        void openChildForm(Form childForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.Dock = DockStyle.Fill;
+            panelexe.Controls.Add(childForm);
+            //panelexe.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
 
         void AplicaElipse()
         {
@@ -176,6 +196,19 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
             panelMenuRendimento.SendToBack();
             panelMenuRelatorios.BringToFront();
             btnCloseMenu.BringToFront();
+        }
+
+        private void btnProjecto_Click(object sender, EventArgs e)
+        {
+            panelCabecalho.BottomSahddow = true;
+
+            openChildForm(new FormProject());
+
+            panelexe.BringToFront();
+
+            panelexe.Visible = false;
+
+            T1.ShowSync(panelexe);
         }
 
 

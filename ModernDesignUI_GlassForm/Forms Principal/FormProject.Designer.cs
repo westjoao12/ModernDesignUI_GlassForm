@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormProject));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnRelatorio = new Guna.UI2.WinForms.Guna2Button();
             this.bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
             this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
@@ -188,14 +188,14 @@
             this.DgVisualizador.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DgVisualizador.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.DgVisualizador.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgVisualizador.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle25.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle25.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle25.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgVisualizador.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle25;
             this.DgVisualizador.ColumnHeadersHeight = 25;
             this.DgVisualizador.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.DgVisualizador.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -211,23 +211,23 @@
             this.DgVisualizador.Name = "DgVisualizador";
             this.DgVisualizador.ReadOnly = true;
             this.DgVisualizador.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgVisualizador.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle26.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgVisualizador.RowHeadersDefaultCellStyle = dataGridViewCellStyle26;
             this.DgVisualizador.RowHeadersVisible = false;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(129)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DgVisualizador.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle27.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(129)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgVisualizador.RowsDefaultCellStyle = dataGridViewCellStyle27;
             this.DgVisualizador.RowTemplate.Height = 30;
             this.DgVisualizador.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DgVisualizador.Size = new System.Drawing.Size(586, 452);
@@ -241,7 +241,7 @@
             this.lblTot_Pendentes.Name = "lblTot_Pendentes";
             this.lblTot_Pendentes.Size = new System.Drawing.Size(58, 16);
             this.lblTot_Pendentes.TabIndex = 104;
-            this.lblTot_Pendentes.Text = "035";
+            this.lblTot_Pendentes.Text = "05";
             this.lblTot_Pendentes.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // RBPendentes
@@ -312,6 +312,7 @@
             this.rdArea.TabIndex = 101;
             this.rdArea.Text = "Área";
             this.rdArea.UseVisualStyleBackColor = true;
+            this.rdArea.CheckedChanged += new System.EventHandler(this.rdArea_CheckedChanged);
             // 
             // rdPie
             // 
@@ -323,6 +324,7 @@
             this.rdPie.TabIndex = 99;
             this.rdPie.Text = "Pie";
             this.rdPie.UseVisualStyleBackColor = true;
+            this.rdPie.CheckedChanged += new System.EventHandler(this.rdPie_CheckedChanged);
             // 
             // rdPadrao
             // 
@@ -336,6 +338,7 @@
             this.rdPadrao.TabStop = true;
             this.rdPadrao.Text = "Padrão";
             this.rdPadrao.UseVisualStyleBackColor = true;
+            this.rdPadrao.CheckedChanged += new System.EventHandler(this.rdPadrao_CheckedChanged);
             // 
             // label10
             // 
@@ -355,7 +358,6 @@
             this.bunifuCards2.BorderRadius = 5;
             this.bunifuCards2.BottomSahddow = true;
             this.bunifuCards2.color = System.Drawing.Color.White;
-            this.bunifuCards2.Controls.Add(this.Chart1);
             this.bunifuCards2.Controls.Add(this.guna2VSeparator1);
             this.bunifuCards2.Controls.Add(this.lblTot_Pendentes);
             this.bunifuCards2.Controls.Add(this.RBPendentes);
@@ -375,6 +377,7 @@
             this.bunifuCards2.Controls.Add(this.RBEmProgresso);
             this.bunifuCards2.Controls.Add(this.RBConcluidos);
             this.bunifuCards2.Controls.Add(this.label4);
+            this.bunifuCards2.Controls.Add(this.Chart1);
             this.bunifuCards2.LeftSahddow = false;
             this.bunifuCards2.Location = new System.Drawing.Point(633, 12);
             this.bunifuCards2.Name = "bunifuCards2";
@@ -415,6 +418,7 @@
             this.btnGrafico.Text = "Gráfico";
             this.btnGrafico.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnGrafico.TextOffset = new System.Drawing.Point(5, 0);
+            this.btnGrafico.Click += new System.EventHandler(this.btnGrafico_Click);
             // 
             // lblTot_Todos
             // 
@@ -424,7 +428,7 @@
             this.lblTot_Todos.Name = "lblTot_Todos";
             this.lblTot_Todos.Size = new System.Drawing.Size(45, 16);
             this.lblTot_Todos.TabIndex = 92;
-            this.lblTot_Todos.Text = "098";
+            this.lblTot_Todos.Text = "011";
             this.lblTot_Todos.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lblTot_EmProgresso
@@ -435,7 +439,7 @@
             this.lblTot_EmProgresso.Name = "lblTot_EmProgresso";
             this.lblTot_EmProgresso.Size = new System.Drawing.Size(80, 16);
             this.lblTot_EmProgresso.TabIndex = 91;
-            this.lblTot_EmProgresso.Text = "035";
+            this.lblTot_EmProgresso.Text = "04";
             this.lblTot_EmProgresso.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lblTot_Concluidos
@@ -446,7 +450,7 @@
             this.lblTot_Concluidos.Name = "lblTot_Concluidos";
             this.lblTot_Concluidos.Size = new System.Drawing.Size(55, 16);
             this.lblTot_Concluidos.TabIndex = 90;
-            this.lblTot_Concluidos.Text = "098";
+            this.lblTot_Concluidos.Text = "02";
             this.lblTot_Concluidos.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // btnEstado

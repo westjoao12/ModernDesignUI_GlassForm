@@ -15,7 +15,6 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
         public FormProject()
         {
             InitializeComponent();
-            panelTG.Width = 32;
             Actualiza();
         }
 
@@ -53,6 +52,13 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
             DgVisualizador.Rows.Add("01", "Frontend 089", "Frontend", "software", "02-10-2023", "Concluído");
             DgVisualizador.Rows.Add("02", "Frontend 070", "Frontend", "software", "02-10-2023", "Concluído");
             DgVisualizador.Rows.Add("03", "Frontend 067", "Api de entrega", "Backend", "02-10-2023", "Em progresso...");
+            DgVisualizador.Rows.Add("03", "Frontend 067", "Api de entrega", "Backend", "02-10-2023", "Em progresso...");
+            DgVisualizador.Rows.Add("03", "Frontend 067", "Api de entrega", "Backend", "02-10-2023", "Em progresso...");
+            DgVisualizador.Rows.Add("03", "Frontend 067", "Api de entrega", "Backend", "02-10-2023", "Em progresso...");
+            DgVisualizador.Rows.Add("04", "Frontend 045", "Frontend", "software", "02-10-2023", "Pendente");
+            DgVisualizador.Rows.Add("04", "Frontend 045", "Frontend", "software", "02-10-2023", "Pendente");
+            DgVisualizador.Rows.Add("04", "Frontend 045", "Frontend", "software", "02-10-2023", "Pendente");
+            DgVisualizador.Rows.Add("04", "Frontend 045", "Frontend", "software", "02-10-2023", "Pendente");
             DgVisualizador.Rows.Add("04", "Frontend 045", "Frontend", "software", "02-10-2023", "Pendente");
 
             RenderChart();
@@ -66,6 +72,31 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
                 panelTG.Width = 32;
             else if (panelTG.Width == 32)
                 panelTG.Width = 283;
+        }
+
+        private void btnGrafico_Click(object sender, EventArgs e)
+        {
+            btnGrafico.Visible = false;
+            RenderChart();
+            panelTG.Visible = true;
+        }
+
+        private void rdPadrao_CheckedChanged(object sender, EventArgs e)
+        {
+
+            RenderChart();
+        }
+
+        private void rdPie_CheckedChanged(object sender, EventArgs e)
+        {
+
+            RenderChart();
+        }
+
+        private void rdArea_CheckedChanged(object sender, EventArgs e)
+        {
+
+            RenderChart();
         }
     }
 }
