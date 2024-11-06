@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="bunifuDataviz 1.0.1">
+      <HintPath>..\..\..\..\..\Program Files\DatabaseNet4\bunifuDataviz 1.0.1.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>..\..\..\..\..\Program Files\DatabaseNet4\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
