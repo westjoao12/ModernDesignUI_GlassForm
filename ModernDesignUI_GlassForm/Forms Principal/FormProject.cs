@@ -51,10 +51,10 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
         {
             DgVisualizador.Rows.Add("01", "Frontend 089", "Frontend", "software", "02-10-2023", "Concluído");
             DgVisualizador.Rows.Add("02", "Frontend 070", "Frontend", "software", "02-10-2023", "Concluído");
-            DgVisualizador.Rows.Add("03", "Frontend 067", "Api de entrega", "Backend", "02-10-2023", "Em progresso...");
-            DgVisualizador.Rows.Add("03", "Frontend 067", "Api de entrega", "Backend", "02-10-2023", "Em progresso...");
-            DgVisualizador.Rows.Add("03", "Frontend 067", "Api de entrega", "Backend", "02-10-2023", "Em progresso...");
-            DgVisualizador.Rows.Add("03", "Frontend 067", "Api de entrega", "Backend", "02-10-2023", "Em progresso...");
+            DgVisualizador.Rows.Add("03", "Api de entrega 067", "Backend", "API", "02-10-2023", "Em progresso...");
+            DgVisualizador.Rows.Add("03", "Api de entrega 067", "Backend", "API", "02-10-2023", "Em progresso...");
+            DgVisualizador.Rows.Add("03", "Api de entrega 067", "Backend", "API", "02-10-2023", "Em progresso...");
+            DgVisualizador.Rows.Add("03", "Api de entrega 067", "Backend", "API", "02-10-2023", "Em progresso...");
             DgVisualizador.Rows.Add("04", "Frontend 045", "Frontend", "software", "02-10-2023", "Pendente");
             DgVisualizador.Rows.Add("04", "Frontend 045", "Frontend", "software", "02-10-2023", "Pendente");
             DgVisualizador.Rows.Add("04", "Frontend 045", "Frontend", "software", "02-10-2023", "Pendente");
@@ -62,6 +62,24 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
             DgVisualizador.Rows.Add("04", "Frontend 045", "Frontend", "software", "02-10-2023", "Pendente");
 
             RenderChart();
+
+            for (int i = 0; i < DgVisualizador.Rows.Count; i++)
+            {
+                if (DgVisualizador.Rows[i].Cells[5].Value.ToString() == "Concluído"){
+                    DgVisualizador.Rows[i].Cells[5].Style.ForeColor = Color.FromArgb(61, 211, 80);
+                    DgVisualizador.Rows[i].Cells[5].Style.SelectionForeColor = Color.FromArgb(61, 211, 80);
+                }
+                else if (DgVisualizador.Rows[i].Cells[5].Value.ToString() == "Em progresso...")
+                {
+                    DgVisualizador.Rows[i].Cells[5].Style.ForeColor = Color.Fuchsia;
+                    DgVisualizador.Rows[i].Cells[5].Style.SelectionForeColor = Color.Fuchsia;
+                }
+                else if (DgVisualizador.Rows[i].Cells[5].Value.ToString() == "Pendente")
+                {
+                    DgVisualizador.Rows[i].Cells[5].Style.ForeColor = Color.FromArgb(254, 23, 64);
+                    DgVisualizador.Rows[i].Cells[5].Style.SelectionForeColor = Color.FromArgb(254, 23, 64);
+                }
+            }
         }
         #endregion
 

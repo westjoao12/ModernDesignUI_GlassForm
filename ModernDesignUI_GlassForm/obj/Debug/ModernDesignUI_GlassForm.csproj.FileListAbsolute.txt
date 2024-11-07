@@ -1,14 +1,13 @@
 c:\users\west\onedrive\documentos\visual studio 2013\Projects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\bin\Debug\ModernDesignUI_GlassForm.exe.config
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.exe
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.Forms_Principal.DashboardPrincipal.resources
+C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.Forms_Principal.FormProject.resources
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.Properties.Resources.resources
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.csproj.GenerateResource.Cache
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.pdb
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\bin\Debug\ModernDesignUI_GlassForm.exe.config
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\bin\Debug\ModernDesignUI_GlassForm.exe
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\bin\Debug\ModernDesignUI_GlassForm.pdb
+C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\bin\Debug\bunifuDataviz 1.0.1.dll
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\bin\Debug\Bunifu_UI_v1.5.3.dll
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\bin\Debug\Guna.UI2.dll
-C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.csprojResolveAssemblyReference.cache
-C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.Forms_Principal.FormProject.resources
-C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\bin\Debug\bunifuDataviz 1.0.1.dll
