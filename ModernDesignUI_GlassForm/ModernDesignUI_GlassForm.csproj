@@ -79,6 +79,9 @@
     <EmbeddedResource Include="Forms Principal\DashboardPrincipal.resx">
       <DependentUpon>DashboardPrincipal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms Principal\FormMyBalance.resx">
+      <DependentUpon>FormMyBalance.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms Principal\FormProject.resx">
       <DependentUpon>FormProject.cs</DependentUpon>
     </EmbeddedResource>
