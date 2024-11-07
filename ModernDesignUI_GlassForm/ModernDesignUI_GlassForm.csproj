@@ -62,6 +62,12 @@
     <Compile Include="Forms Principal\DashboardPrincipal.Designer.cs">
       <DependentUpon>DashboardPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms Principal\FormMyBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Principal\FormMyBalance.Designer.cs">
+      <DependentUpon>FormMyBalance.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms Principal\FormProject.cs">
       <SubType>Form</SubType>
     </Compile>
