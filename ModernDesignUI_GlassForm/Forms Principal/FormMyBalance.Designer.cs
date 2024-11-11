@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMyBalance));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelPrincipal = new System.Windows.Forms.Panel();
             this.bunifuCards2 = new Bunifu.Framework.UI.BunifuCards();
             this.panelPerfil = new System.Windows.Forms.Panel();
@@ -46,8 +46,6 @@
             this.panelMaisInfor = new System.Windows.Forms.Panel();
             this.lblSaldo = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.lblPercentagem = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.lblCategoria = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblID = new System.Windows.Forms.Label();
@@ -157,7 +155,7 @@
             this.L_Saldo.Name = "L_Saldo";
             this.L_Saldo.Size = new System.Drawing.Size(244, 22);
             this.L_Saldo.TabIndex = 244;
-            this.L_Saldo.Text = "0.00 Kz";
+            this.L_Saldo.Text = "0.00 $";
             this.L_Saldo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.L_Saldo.Visible = false;
             // 
@@ -190,6 +188,7 @@
             this.swtCadSaldo.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.swtCadSaldo.UncheckedState.InnerColor = System.Drawing.Color.White;
             this.swtCadSaldo.UncheckedState.Parent = this.swtCadSaldo;
+            this.swtCadSaldo.CheckedChanged += new System.EventHandler(this.swtCadSaldo_CheckedChanged);
             // 
             // label27
             // 
@@ -240,6 +239,7 @@
             this.btnVermais.Text = "Ver mas";
             this.btnVermais.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnVermais.TextOffset = new System.Drawing.Point(5, 0);
+            this.btnVermais.Click += new System.EventHandler(this.btnVermais_Click);
             // 
             // L_Nome
             // 
@@ -249,7 +249,7 @@
             this.L_Nome.Name = "L_Nome";
             this.L_Nome.Size = new System.Drawing.Size(244, 22);
             this.L_Nome.TabIndex = 96;
-            this.L_Nome.Text = "Nome do Usuário";
+            this.L_Nome.Text = "West João";
             this.L_Nome.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // L_Cargo
@@ -260,7 +260,7 @@
             this.L_Cargo.Name = "L_Cargo";
             this.L_Cargo.Size = new System.Drawing.Size(244, 20);
             this.L_Cargo.TabIndex = 97;
-            this.L_Cargo.Text = "Cargo";
+            this.L_Cargo.Text = ".Net Developer";
             this.L_Cargo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panelMaisInfor
@@ -269,8 +269,6 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelMaisInfor.Controls.Add(this.lblSaldo);
             this.panelMaisInfor.Controls.Add(this.label19);
-            this.panelMaisInfor.Controls.Add(this.lblPercentagem);
-            this.panelMaisInfor.Controls.Add(this.label4);
             this.panelMaisInfor.Controls.Add(this.lblCategoria);
             this.panelMaisInfor.Controls.Add(this.label2);
             this.panelMaisInfor.Controls.Add(this.lblID);
@@ -301,62 +299,39 @@
             // 
             this.lblSaldo.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSaldo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.lblSaldo.Location = new System.Drawing.Point(71, 251);
+            this.lblSaldo.Location = new System.Drawing.Point(71, 259);
             this.lblSaldo.Name = "lblSaldo";
             this.lblSaldo.Size = new System.Drawing.Size(157, 16);
             this.lblSaldo.TabIndex = 108;
-            this.lblSaldo.Text = "0kz";
+            this.lblSaldo.Text = "0.00 $";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label19.Location = new System.Drawing.Point(16, 251);
+            this.label19.Location = new System.Drawing.Point(16, 259);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(49, 16);
             this.label19.TabIndex = 107;
             this.label19.Text = "Saldo:";
             // 
-            // lblPercentagem
-            // 
-            this.lblPercentagem.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPercentagem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.lblPercentagem.Location = new System.Drawing.Point(80, 237);
-            this.lblPercentagem.Name = "lblPercentagem";
-            this.lblPercentagem.Size = new System.Drawing.Size(157, 16);
-            this.lblPercentagem.TabIndex = 106;
-            this.lblPercentagem.Text = "0,00";
-            this.lblPercentagem.Visible = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label4.Location = new System.Drawing.Point(16, 237);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 16);
-            this.label4.TabIndex = 105;
-            this.label4.Text = "Percent.:";
-            this.label4.Visible = false;
-            // 
             // lblCategoria
             // 
             this.lblCategoria.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCategoria.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.lblCategoria.Location = new System.Drawing.Point(93, 214);
+            this.lblCategoria.Location = new System.Drawing.Point(93, 231);
             this.lblCategoria.Name = "lblCategoria";
             this.lblCategoria.Size = new System.Drawing.Size(157, 16);
             this.lblCategoria.TabIndex = 104;
-            this.lblCategoria.Text = "Funcionário";
+            this.lblCategoria.Text = "Employer";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label2.Location = new System.Drawing.Point(16, 214);
+            this.label2.Location = new System.Drawing.Point(16, 231);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 16);
             this.label2.TabIndex = 103;
@@ -408,6 +383,7 @@
             this.btnFecharMais.TabIndex = 100;
             this.btnFecharMais.Text = "Ver menos";
             this.btnFecharMais.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnFecharMais.Click += new System.EventHandler(this.btnFecharMais_Click);
             // 
             // lblUltimoLogIn
             // 
@@ -417,13 +393,13 @@
             this.lblUltimoLogIn.Name = "lblUltimoLogIn";
             this.lblUltimoLogIn.Size = new System.Drawing.Size(157, 16);
             this.lblUltimoLogIn.TabIndex = 99;
-            this.lblUltimoLogIn.Text = "2021-12-22 as 16:49:45";
+            this.lblUltimoLogIn.Text = "2024-11-11 as 16:49:45";
             // 
             // lblEstado
             // 
             this.lblEstado.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEstado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.lblEstado.Location = new System.Drawing.Point(66, 192);
+            this.lblEstado.Location = new System.Drawing.Point(66, 203);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(157, 16);
             this.lblEstado.TabIndex = 98;
@@ -433,7 +409,7 @@
             // 
             this.lblNivel.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNivel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.lblNivel.Location = new System.Drawing.Point(57, 170);
+            this.lblNivel.Location = new System.Drawing.Point(57, 175);
             this.lblNivel.Name = "lblNivel";
             this.lblNivel.Size = new System.Drawing.Size(206, 16);
             this.lblNivel.TabIndex = 97;
@@ -457,7 +433,7 @@
             this.lblCargoOficial.Name = "lblCargoOficial";
             this.lblCargoOficial.Size = new System.Drawing.Size(206, 16);
             this.lblCargoOficial.TabIndex = 95;
-            this.lblCargoOficial.Text = "Programador";
+            this.lblCargoOficial.Text = "Developer";
             // 
             // lblNomComp
             // 
@@ -467,7 +443,7 @@
             this.lblNomComp.Name = "lblNomComp";
             this.lblNomComp.Size = new System.Drawing.Size(203, 16);
             this.lblNomComp.TabIndex = 94;
-            this.lblNomComp.Text = "João Afonso Fukiau";
+            this.lblNomComp.Text = "West João";
             // 
             // label17
             // 
@@ -485,7 +461,7 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label18.Location = new System.Drawing.Point(16, 192);
+            this.label18.Location = new System.Drawing.Point(16, 203);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(55, 16);
             this.label18.TabIndex = 92;
@@ -496,7 +472,7 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label14.Location = new System.Drawing.Point(16, 170);
+            this.label14.Location = new System.Drawing.Point(16, 175);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(44, 16);
             this.label14.TabIndex = 91;
@@ -898,14 +874,14 @@
             this.DgVisualizador.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DgVisualizador.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.DgVisualizador.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgVisualizador.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle37.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle37.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle37.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle37.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle37.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle37.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgVisualizador.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle37;
             this.DgVisualizador.ColumnHeadersHeight = 25;
             this.DgVisualizador.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.DgVisualizador.EnableHeadersVisualStyles = false;
@@ -914,23 +890,23 @@
             this.DgVisualizador.Name = "DgVisualizador";
             this.DgVisualizador.ReadOnly = true;
             this.DgVisualizador.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgVisualizador.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle38.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle38.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgVisualizador.RowHeadersDefaultCellStyle = dataGridViewCellStyle38;
             this.DgVisualizador.RowHeadersVisible = false;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DgVisualizador.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle39.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle39.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgVisualizador.RowsDefaultCellStyle = dataGridViewCellStyle39;
             this.DgVisualizador.RowTemplate.Height = 30;
             this.DgVisualizador.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DgVisualizador.Size = new System.Drawing.Size(586, 452);
@@ -965,6 +941,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormMyBalance";
             this.Text = "FormMyBalance";
+            this.Load += new System.EventHandler(this.FormMyBalance_Load);
             this.panelPrincipal.ResumeLayout(false);
             this.bunifuCards2.ResumeLayout(false);
             this.panelPerfil.ResumeLayout(false);
@@ -999,8 +976,6 @@
         private System.Windows.Forms.Panel panelMaisInfor;
         private System.Windows.Forms.Label lblSaldo;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label lblPercentagem;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblCategoria;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblID;
