@@ -211,6 +211,19 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
             T1.ShowSync(panelexe);
         }
 
+        private void btnMRendiMeuBalanco_Click(object sender, EventArgs e)
+        {
+            panelCabecalho.BottomSahddow = true;
+
+            openChildForm(new FormMyBalance());
+
+            panelexe.BringToFront();
+
+            panelexe.Visible = false;
+
+            T1.ShowSync(panelexe);
+        }
+
 
 
     }
