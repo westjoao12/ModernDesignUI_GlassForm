@@ -15,6 +15,8 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
         public FormMyBalance()
         {
             InitializeComponent();
+            DgVisualizador.Rows.Add("Abertura de Contrato", "25,00", "2.500,00", "0,00", "2.500,00", "29/11/2024");
+            DgVisualizador.Rows.Add("licença de software", "25,00", "1.500,00", "2.500,00", "4.000,00", "29/12/2024");
         }
 
         #region Function's

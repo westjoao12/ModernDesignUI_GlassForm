@@ -29,10 +29,34 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMyBalance));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelPrincipal = new System.Windows.Forms.Panel();
+            this.bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
+            this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.dt_2 = new System.Windows.Forms.DateTimePicker();
+            this.dt_1 = new System.Windows.Forms.DateTimePicker();
+            this.guna2VSeparator2 = new Guna.UI2.WinForms.Guna2VSeparator();
+            this.btnBuscar = new Guna.UI2.WinForms.Guna2Button();
+            this.label20 = new System.Windows.Forms.Label();
+            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.lblTitulo = new System.Windows.Forms.Label();
+            this.DgVisualizador = new System.Windows.Forms.DataGridView();
+            this.guna2Separator11 = new Guna.UI2.WinForms.Guna2Separator();
+            this.label1 = new System.Windows.Forms.Label();
+            this.bunifuCards4 = new Bunifu.Framework.UI.BunifuCards();
+            this.guna2VSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.RBNotActivo = new Guna.UI2.WinForms.Guna2CustomRadioButton();
+            this.RBActivo = new Guna.UI2.WinForms.Guna2CustomRadioButton();
+            this.bunifuCards3 = new Bunifu.Framework.UI.BunifuCards();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnEditar = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNovo = new Guna.UI2.WinForms.Guna2Button();
             this.bunifuCards2 = new Bunifu.Framework.UI.BunifuCards();
             this.panelPerfil = new System.Windows.Forms.Panel();
             this.L_Saldo = new System.Windows.Forms.Label();
@@ -66,40 +90,22 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.bunifuCards3 = new Bunifu.Framework.UI.BunifuCards();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.btnEditar = new Guna.UI2.WinForms.Guna2Button();
-            this.btnNovo = new Guna.UI2.WinForms.Guna2Button();
-            this.bunifuCards4 = new Bunifu.Framework.UI.BunifuCards();
-            this.guna2VSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.RBNotActivo = new Guna.UI2.WinForms.Guna2CustomRadioButton();
-            this.RBActivo = new Guna.UI2.WinForms.Guna2CustomRadioButton();
-            this.bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
-            this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.dt_2 = new System.Windows.Forms.DateTimePicker();
-            this.dt_1 = new System.Windows.Forms.DateTimePicker();
-            this.guna2VSeparator2 = new Guna.UI2.WinForms.Guna2VSeparator();
-            this.btnBuscar = new Guna.UI2.WinForms.Guna2Button();
-            this.label20 = new System.Windows.Forms.Label();
-            this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.lblTitulo = new System.Windows.Forms.Label();
-            this.DgVisualizador = new System.Windows.Forms.DataGridView();
-            this.guna2Separator11 = new Guna.UI2.WinForms.Guna2Separator();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelPrincipal.SuspendLayout();
+            this.bunifuCards1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DgVisualizador)).BeginInit();
+            this.bunifuCards4.SuspendLayout();
+            this.bunifuCards3.SuspendLayout();
             this.bunifuCards2.SuspendLayout();
             this.panelPerfil.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picture_img)).BeginInit();
             this.panelMaisInfor.SuspendLayout();
-            this.bunifuCards3.SuspendLayout();
-            this.bunifuCards4.SuspendLayout();
-            this.bunifuCards1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DgVisualizador)).BeginInit();
             this.SuspendLayout();
             // 
             // panelPrincipal
@@ -113,6 +119,400 @@
             this.panelPrincipal.Name = "panelPrincipal";
             this.panelPrincipal.Size = new System.Drawing.Size(944, 575);
             this.panelPrincipal.TabIndex = 0;
+            // 
+            // bunifuCards1
+            // 
+            this.bunifuCards1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCards1.BackColor = System.Drawing.Color.White;
+            this.bunifuCards1.BorderRadius = 5;
+            this.bunifuCards1.BottomSahddow = true;
+            this.bunifuCards1.color = System.Drawing.Color.White;
+            this.bunifuCards1.Controls.Add(this.guna2Separator1);
+            this.bunifuCards1.Controls.Add(this.label3);
+            this.bunifuCards1.Controls.Add(this.label6);
+            this.bunifuCards1.Controls.Add(this.dt_2);
+            this.bunifuCards1.Controls.Add(this.dt_1);
+            this.bunifuCards1.Controls.Add(this.guna2VSeparator2);
+            this.bunifuCards1.Controls.Add(this.btnBuscar);
+            this.bunifuCards1.Controls.Add(this.label20);
+            this.bunifuCards1.Controls.Add(this.guna2CirclePictureBox3);
+            this.bunifuCards1.Controls.Add(this.lblTitulo);
+            this.bunifuCards1.Controls.Add(this.DgVisualizador);
+            this.bunifuCards1.Controls.Add(this.guna2Separator11);
+            this.bunifuCards1.Controls.Add(this.label1);
+            this.bunifuCards1.LeftSahddow = false;
+            this.bunifuCards1.Location = new System.Drawing.Point(326, 12);
+            this.bunifuCards1.Name = "bunifuCards1";
+            this.bunifuCards1.RightSahddow = true;
+            this.bunifuCards1.ShadowDepth = 20;
+            this.bunifuCards1.Size = new System.Drawing.Size(605, 551);
+            this.bunifuCards1.TabIndex = 5;
+            // 
+            // guna2Separator1
+            // 
+            this.guna2Separator1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2Separator1.Location = new System.Drawing.Point(8, 57);
+            this.guna2Separator1.Name = "guna2Separator1";
+            this.guna2Separator1.Size = new System.Drawing.Size(586, 10);
+            this.guna2Separator1.TabIndex = 285;
+            // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(379, 37);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(30, 17);
+            this.label3.TabIndex = 283;
+            this.label3.Text = "Fim";
+            // 
+            // label6
+            // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(226, 37);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(42, 17);
+            this.label6.TabIndex = 284;
+            this.label6.Text = "Inicio";
+            // 
+            // dt_2
+            // 
+            this.dt_2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.dt_2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dt_2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dt_2.Location = new System.Drawing.Point(412, 35);
+            this.dt_2.Name = "dt_2";
+            this.dt_2.Size = new System.Drawing.Size(101, 20);
+            this.dt_2.TabIndex = 282;
+            // 
+            // dt_1
+            // 
+            this.dt_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.dt_1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dt_1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dt_1.Location = new System.Drawing.Point(272, 35);
+            this.dt_1.Name = "dt_1";
+            this.dt_1.Size = new System.Drawing.Size(101, 20);
+            this.dt_1.TabIndex = 281;
+            // 
+            // guna2VSeparator2
+            // 
+            this.guna2VSeparator2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2VSeparator2.Location = new System.Drawing.Point(514, 5);
+            this.guna2VSeparator2.Name = "guna2VSeparator2";
+            this.guna2VSeparator2.Size = new System.Drawing.Size(10, 50);
+            this.guna2VSeparator2.TabIndex = 140;
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnBuscar.BorderRadius = 10;
+            this.btnBuscar.CheckedState.Parent = this.btnBuscar;
+            this.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBuscar.CustomImages.Parent = this.btnBuscar;
+            this.btnBuscar.FillColor = System.Drawing.Color.White;
+            this.btnBuscar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnBuscar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnBuscar.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(129)))), ((int)(((byte)(204)))));
+            this.btnBuscar.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnBuscar.HoverState.Parent = this.btnBuscar;
+            this.btnBuscar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnBuscar.Location = new System.Drawing.Point(530, 15);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.ShadowDecoration.Parent = this.btnBuscar;
+            this.btnBuscar.Size = new System.Drawing.Size(62, 31);
+            this.btnBuscar.TabIndex = 139;
+            this.btnBuscar.Text = "Buscar...";
+            // 
+            // label20
+            // 
+            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.label20.Location = new System.Drawing.Point(339, 12);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(124, 16);
+            this.label20.TabIndex = 137;
+            this.label20.Text = "Escolha o período";
+            // 
+            // guna2CirclePictureBox3
+            // 
+            this.guna2CirclePictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox3.Image")));
+            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(8, 15);
+            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
+            this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox3.ShadowDecoration.Parent = this.guna2CirclePictureBox3;
+            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(30, 30);
+            this.guna2CirclePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox3.TabIndex = 85;
+            this.guna2CirclePictureBox3.TabStop = false;
+            // 
+            // lblTitulo
+            // 
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.lblTitulo.Location = new System.Drawing.Point(41, 22);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(112, 19);
+            this.lblTitulo.TabIndex = 84;
+            this.lblTitulo.Text = "Meu Balanço";
+            // 
+            // DgVisualizador
+            // 
+            this.DgVisualizador.AllowUserToAddRows = false;
+            this.DgVisualizador.AllowUserToDeleteRows = false;
+            this.DgVisualizador.AllowUserToResizeRows = false;
+            this.DgVisualizador.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DgVisualizador.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DgVisualizador.BackgroundColor = System.Drawing.Color.White;
+            this.DgVisualizador.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.DgVisualizador.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.DgVisualizador.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgVisualizador.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
+            this.DgVisualizador.ColumnHeadersHeight = 25;
+            this.DgVisualizador.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.DgVisualizador.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5,
+            this.Column6});
+            this.DgVisualizador.EnableHeadersVisualStyles = false;
+            this.DgVisualizador.GridColor = System.Drawing.Color.Silver;
+            this.DgVisualizador.Location = new System.Drawing.Point(8, 86);
+            this.DgVisualizador.Name = "DgVisualizador";
+            this.DgVisualizador.ReadOnly = true;
+            this.DgVisualizador.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(240)))));
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DgVisualizador.RowHeadersDefaultCellStyle = dataGridViewCellStyle17;
+            this.DgVisualizador.RowHeadersVisible = false;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgVisualizador.RowsDefaultCellStyle = dataGridViewCellStyle18;
+            this.DgVisualizador.RowTemplate.Height = 30;
+            this.DgVisualizador.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.DgVisualizador.Size = new System.Drawing.Size(586, 452);
+            this.DgVisualizador.TabIndex = 87;
+            // 
+            // guna2Separator11
+            // 
+            this.guna2Separator11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2Separator11.Location = new System.Drawing.Point(229, 25);
+            this.guna2Separator11.Name = "guna2Separator11";
+            this.guna2Separator11.Size = new System.Drawing.Size(279, 10);
+            this.guna2Separator11.TabIndex = 280;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.label1.Location = new System.Drawing.Point(5, 67);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(85, 16);
+            this.label1.TabIndex = 88;
+            this.label1.Text = "Movimentos";
+            // 
+            // bunifuCards4
+            // 
+            this.bunifuCards4.BackColor = System.Drawing.Color.White;
+            this.bunifuCards4.BorderRadius = 5;
+            this.bunifuCards4.BottomSahddow = true;
+            this.bunifuCards4.color = System.Drawing.Color.White;
+            this.bunifuCards4.Controls.Add(this.guna2VSeparator1);
+            this.bunifuCards4.Controls.Add(this.label8);
+            this.bunifuCards4.Controls.Add(this.label9);
+            this.bunifuCards4.Controls.Add(this.RBNotActivo);
+            this.bunifuCards4.Controls.Add(this.RBActivo);
+            this.bunifuCards4.LeftSahddow = false;
+            this.bunifuCards4.Location = new System.Drawing.Point(12, 471);
+            this.bunifuCards4.Name = "bunifuCards4";
+            this.bunifuCards4.RightSahddow = true;
+            this.bunifuCards4.ShadowDepth = 20;
+            this.bunifuCards4.Size = new System.Drawing.Size(299, 92);
+            this.bunifuCards4.TabIndex = 4;
+            // 
+            // guna2VSeparator1
+            // 
+            this.guna2VSeparator1.Location = new System.Drawing.Point(144, 25);
+            this.guna2VSeparator1.Name = "guna2VSeparator1";
+            this.guna2VSeparator1.Size = new System.Drawing.Size(10, 43);
+            this.guna2VSeparator1.TabIndex = 94;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.label8.Location = new System.Drawing.Point(192, 53);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(70, 16);
+            this.label8.TabIndex = 83;
+            this.label8.Text = "Retiradas";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.label9.Location = new System.Drawing.Point(41, 53);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(56, 16);
+            this.label9.TabIndex = 82;
+            this.label9.Text = "Rendas";
+            // 
+            // RBNotActivo
+            // 
+            this.RBNotActivo.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(23)))), ((int)(((byte)(64)))));
+            this.RBNotActivo.CheckedState.BorderThickness = 2;
+            this.RBNotActivo.CheckedState.FillColor = System.Drawing.Color.White;
+            this.RBNotActivo.CheckedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(23)))), ((int)(((byte)(64)))));
+            this.RBNotActivo.CheckedState.Parent = this.RBNotActivo;
+            this.RBNotActivo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RBNotActivo.Location = new System.Drawing.Point(217, 26);
+            this.RBNotActivo.Name = "RBNotActivo";
+            this.RBNotActivo.ShadowDecoration.Parent = this.RBNotActivo;
+            this.RBNotActivo.Size = new System.Drawing.Size(20, 20);
+            this.RBNotActivo.TabIndex = 4;
+            this.RBNotActivo.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.RBNotActivo.UncheckedState.BorderThickness = 2;
+            this.RBNotActivo.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.RBNotActivo.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.RBNotActivo.UncheckedState.Parent = this.RBNotActivo;
+            // 
+            // RBActivo
+            // 
+            this.RBActivo.Checked = true;
+            this.RBActivo.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(211)))), ((int)(((byte)(80)))));
+            this.RBActivo.CheckedState.BorderThickness = 2;
+            this.RBActivo.CheckedState.FillColor = System.Drawing.Color.White;
+            this.RBActivo.CheckedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(211)))), ((int)(((byte)(80)))));
+            this.RBActivo.CheckedState.Parent = this.RBActivo;
+            this.RBActivo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RBActivo.Location = new System.Drawing.Point(59, 26);
+            this.RBActivo.Name = "RBActivo";
+            this.RBActivo.ShadowDecoration.Parent = this.RBActivo;
+            this.RBActivo.Size = new System.Drawing.Size(20, 20);
+            this.RBActivo.TabIndex = 3;
+            this.RBActivo.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.RBActivo.UncheckedState.BorderThickness = 2;
+            this.RBActivo.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.RBActivo.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.RBActivo.UncheckedState.Parent = this.RBActivo;
+            // 
+            // bunifuCards3
+            // 
+            this.bunifuCards3.BackColor = System.Drawing.Color.White;
+            this.bunifuCards3.BorderRadius = 5;
+            this.bunifuCards3.BottomSahddow = true;
+            this.bunifuCards3.color = System.Drawing.Color.White;
+            this.bunifuCards3.Controls.Add(this.guna2Button1);
+            this.bunifuCards3.Controls.Add(this.btnEditar);
+            this.bunifuCards3.Controls.Add(this.btnNovo);
+            this.bunifuCards3.LeftSahddow = false;
+            this.bunifuCards3.Location = new System.Drawing.Point(12, 391);
+            this.bunifuCards3.Name = "bunifuCards3";
+            this.bunifuCards3.RightSahddow = true;
+            this.bunifuCards3.ShadowDepth = 20;
+            this.bunifuCards3.Size = new System.Drawing.Size(299, 74);
+            this.bunifuCards3.TabIndex = 3;
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2Button1.BorderRadius = 10;
+            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
+            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
+            this.guna2Button1.FillColor = System.Drawing.Color.White;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(129)))), ((int)(((byte)(204)))));
+            this.guna2Button1.HoverState.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.Parent = this.guna2Button1;
+            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button1.Location = new System.Drawing.Point(242, 21);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
+            this.guna2Button1.Size = new System.Drawing.Size(51, 31);
+            this.guna2Button1.TabIndex = 88;
+            this.guna2Button1.Text = "Extrato";
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnEditar.BorderRadius = 10;
+            this.btnEditar.CheckedState.Parent = this.btnEditar;
+            this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEditar.CustomImages.Parent = this.btnEditar;
+            this.btnEditar.FillColor = System.Drawing.Color.White;
+            this.btnEditar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnEditar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnEditar.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(129)))), ((int)(((byte)(204)))));
+            this.btnEditar.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnEditar.HoverState.Parent = this.btnEditar;
+            this.btnEditar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnEditar.Location = new System.Drawing.Point(148, 21);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.ShadowDecoration.Parent = this.btnEditar;
+            this.btnEditar.Size = new System.Drawing.Size(87, 31);
+            this.btnEditar.TabIndex = 87;
+            this.btnEditar.Text = "Editar o perfíl";
+            // 
+            // btnNovo
+            // 
+            this.btnNovo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnNovo.BorderRadius = 10;
+            this.btnNovo.CheckedState.Parent = this.btnNovo;
+            this.btnNovo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNovo.CustomImages.Parent = this.btnNovo;
+            this.btnNovo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnNovo.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnNovo.ForeColor = System.Drawing.Color.White;
+            this.btnNovo.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(129)))), ((int)(((byte)(204)))));
+            this.btnNovo.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnNovo.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnNovo.HoverState.Image")));
+            this.btnNovo.HoverState.Parent = this.btnNovo;
+            this.btnNovo.Image = ((System.Drawing.Image)(resources.GetObject("btnNovo.Image")));
+            this.btnNovo.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnNovo.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnNovo.Location = new System.Drawing.Point(3, 16);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.ShadowDecoration.Parent = this.btnNovo;
+            this.btnNovo.Size = new System.Drawing.Size(140, 40);
+            this.btnNovo.TabIndex = 86;
+            this.btnNovo.Text = "Solicitar retirada";
+            this.btnNovo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnNovo.TextOffset = new System.Drawing.Point(10, 0);
             // 
             // bunifuCards2
             // 
@@ -155,7 +555,7 @@
             this.L_Saldo.Name = "L_Saldo";
             this.L_Saldo.Size = new System.Drawing.Size(244, 22);
             this.L_Saldo.TabIndex = 244;
-            this.L_Saldo.Text = "0.00 $";
+            this.L_Saldo.Text = "4.000,00 $";
             this.L_Saldo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.L_Saldo.Visible = false;
             // 
@@ -303,7 +703,7 @@
             this.lblSaldo.Name = "lblSaldo";
             this.lblSaldo.Size = new System.Drawing.Size(157, 16);
             this.lblSaldo.TabIndex = 108;
-            this.lblSaldo.Text = "0.00 $";
+            this.lblSaldo.Text = "4.000,00 $";
             // 
             // label19
             // 
@@ -544,392 +944,43 @@
             this.label10.TabIndex = 85;
             this.label10.Text = "Visualizador";
             // 
-            // bunifuCards3
+            // Column1
             // 
-            this.bunifuCards3.BackColor = System.Drawing.Color.White;
-            this.bunifuCards3.BorderRadius = 5;
-            this.bunifuCards3.BottomSahddow = true;
-            this.bunifuCards3.color = System.Drawing.Color.White;
-            this.bunifuCards3.Controls.Add(this.guna2Button1);
-            this.bunifuCards3.Controls.Add(this.btnEditar);
-            this.bunifuCards3.Controls.Add(this.btnNovo);
-            this.bunifuCards3.LeftSahddow = false;
-            this.bunifuCards3.Location = new System.Drawing.Point(12, 391);
-            this.bunifuCards3.Name = "bunifuCards3";
-            this.bunifuCards3.RightSahddow = true;
-            this.bunifuCards3.ShadowDepth = 20;
-            this.bunifuCards3.Size = new System.Drawing.Size(299, 74);
-            this.bunifuCards3.TabIndex = 3;
+            this.Column1.FillWeight = 150F;
+            this.Column1.HeaderText = "Origem da Renda";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
             // 
-            // guna2Button1
+            // Column2
             // 
-            this.guna2Button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2Button1.BorderRadius = 10;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.FillColor = System.Drawing.Color.White;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(129)))), ((int)(((byte)(204)))));
-            this.guna2Button1.HoverState.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button1.Location = new System.Drawing.Point(242, 21);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(51, 31);
-            this.guna2Button1.TabIndex = 88;
-            this.guna2Button1.Text = "Extrato";
+            this.Column2.FillWeight = 50F;
+            this.Column2.HeaderText = "Per(%)";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
             // 
-            // btnEditar
+            // Column3
             // 
-            this.btnEditar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEditar.BorderRadius = 10;
-            this.btnEditar.CheckedState.Parent = this.btnEditar;
-            this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEditar.CustomImages.Parent = this.btnEditar;
-            this.btnEditar.FillColor = System.Drawing.Color.White;
-            this.btnEditar.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnEditar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnEditar.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(129)))), ((int)(((byte)(204)))));
-            this.btnEditar.HoverState.ForeColor = System.Drawing.Color.White;
-            this.btnEditar.HoverState.Parent = this.btnEditar;
-            this.btnEditar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnEditar.Location = new System.Drawing.Point(148, 21);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.ShadowDecoration.Parent = this.btnEditar;
-            this.btnEditar.Size = new System.Drawing.Size(87, 31);
-            this.btnEditar.TabIndex = 87;
-            this.btnEditar.Text = "Editar o perfíl";
+            this.Column3.HeaderText = "Saldo Antes";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
             // 
-            // btnNovo
+            // Column4
             // 
-            this.btnNovo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnNovo.BorderRadius = 10;
-            this.btnNovo.CheckedState.Parent = this.btnNovo;
-            this.btnNovo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnNovo.CustomImages.Parent = this.btnNovo;
-            this.btnNovo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnNovo.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnNovo.ForeColor = System.Drawing.Color.White;
-            this.btnNovo.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(129)))), ((int)(((byte)(204)))));
-            this.btnNovo.HoverState.ForeColor = System.Drawing.Color.White;
-            this.btnNovo.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnNovo.HoverState.Image")));
-            this.btnNovo.HoverState.Parent = this.btnNovo;
-            this.btnNovo.Image = ((System.Drawing.Image)(resources.GetObject("btnNovo.Image")));
-            this.btnNovo.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnNovo.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnNovo.Location = new System.Drawing.Point(3, 16);
-            this.btnNovo.Name = "btnNovo";
-            this.btnNovo.ShadowDecoration.Parent = this.btnNovo;
-            this.btnNovo.Size = new System.Drawing.Size(140, 40);
-            this.btnNovo.TabIndex = 86;
-            this.btnNovo.Text = "Solicitar retirada";
-            this.btnNovo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnNovo.TextOffset = new System.Drawing.Point(10, 0);
+            this.Column4.HeaderText = "Saldo Após";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
             // 
-            // bunifuCards4
+            // Column5
             // 
-            this.bunifuCards4.BackColor = System.Drawing.Color.White;
-            this.bunifuCards4.BorderRadius = 5;
-            this.bunifuCards4.BottomSahddow = true;
-            this.bunifuCards4.color = System.Drawing.Color.White;
-            this.bunifuCards4.Controls.Add(this.guna2VSeparator1);
-            this.bunifuCards4.Controls.Add(this.label8);
-            this.bunifuCards4.Controls.Add(this.label9);
-            this.bunifuCards4.Controls.Add(this.RBNotActivo);
-            this.bunifuCards4.Controls.Add(this.RBActivo);
-            this.bunifuCards4.LeftSahddow = false;
-            this.bunifuCards4.Location = new System.Drawing.Point(12, 471);
-            this.bunifuCards4.Name = "bunifuCards4";
-            this.bunifuCards4.RightSahddow = true;
-            this.bunifuCards4.ShadowDepth = 20;
-            this.bunifuCards4.Size = new System.Drawing.Size(299, 92);
-            this.bunifuCards4.TabIndex = 4;
+            this.Column5.HeaderText = "Valor Ganho";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
             // 
-            // guna2VSeparator1
+            // Column6
             // 
-            this.guna2VSeparator1.Location = new System.Drawing.Point(144, 25);
-            this.guna2VSeparator1.Name = "guna2VSeparator1";
-            this.guna2VSeparator1.Size = new System.Drawing.Size(10, 43);
-            this.guna2VSeparator1.TabIndex = 94;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label8.Location = new System.Drawing.Point(192, 53);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(70, 16);
-            this.label8.TabIndex = 83;
-            this.label8.Text = "Retiradas";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label9.Location = new System.Drawing.Point(41, 53);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(56, 16);
-            this.label9.TabIndex = 82;
-            this.label9.Text = "Rendas";
-            // 
-            // RBNotActivo
-            // 
-            this.RBNotActivo.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(23)))), ((int)(((byte)(64)))));
-            this.RBNotActivo.CheckedState.BorderThickness = 2;
-            this.RBNotActivo.CheckedState.FillColor = System.Drawing.Color.White;
-            this.RBNotActivo.CheckedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(23)))), ((int)(((byte)(64)))));
-            this.RBNotActivo.CheckedState.Parent = this.RBNotActivo;
-            this.RBNotActivo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.RBNotActivo.Location = new System.Drawing.Point(217, 26);
-            this.RBNotActivo.Name = "RBNotActivo";
-            this.RBNotActivo.ShadowDecoration.Parent = this.RBNotActivo;
-            this.RBNotActivo.Size = new System.Drawing.Size(20, 20);
-            this.RBNotActivo.TabIndex = 4;
-            this.RBNotActivo.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.RBNotActivo.UncheckedState.BorderThickness = 2;
-            this.RBNotActivo.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.RBNotActivo.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
-            this.RBNotActivo.UncheckedState.Parent = this.RBNotActivo;
-            // 
-            // RBActivo
-            // 
-            this.RBActivo.Checked = true;
-            this.RBActivo.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(211)))), ((int)(((byte)(80)))));
-            this.RBActivo.CheckedState.BorderThickness = 2;
-            this.RBActivo.CheckedState.FillColor = System.Drawing.Color.White;
-            this.RBActivo.CheckedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(211)))), ((int)(((byte)(80)))));
-            this.RBActivo.CheckedState.Parent = this.RBActivo;
-            this.RBActivo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.RBActivo.Location = new System.Drawing.Point(59, 26);
-            this.RBActivo.Name = "RBActivo";
-            this.RBActivo.ShadowDecoration.Parent = this.RBActivo;
-            this.RBActivo.Size = new System.Drawing.Size(20, 20);
-            this.RBActivo.TabIndex = 3;
-            this.RBActivo.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.RBActivo.UncheckedState.BorderThickness = 2;
-            this.RBActivo.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.RBActivo.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
-            this.RBActivo.UncheckedState.Parent = this.RBActivo;
-            // 
-            // bunifuCards1
-            // 
-            this.bunifuCards1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCards1.BackColor = System.Drawing.Color.White;
-            this.bunifuCards1.BorderRadius = 5;
-            this.bunifuCards1.BottomSahddow = true;
-            this.bunifuCards1.color = System.Drawing.Color.White;
-            this.bunifuCards1.Controls.Add(this.guna2Separator1);
-            this.bunifuCards1.Controls.Add(this.label3);
-            this.bunifuCards1.Controls.Add(this.label6);
-            this.bunifuCards1.Controls.Add(this.dt_2);
-            this.bunifuCards1.Controls.Add(this.dt_1);
-            this.bunifuCards1.Controls.Add(this.guna2VSeparator2);
-            this.bunifuCards1.Controls.Add(this.btnBuscar);
-            this.bunifuCards1.Controls.Add(this.label20);
-            this.bunifuCards1.Controls.Add(this.guna2CirclePictureBox3);
-            this.bunifuCards1.Controls.Add(this.lblTitulo);
-            this.bunifuCards1.Controls.Add(this.DgVisualizador);
-            this.bunifuCards1.Controls.Add(this.guna2Separator11);
-            this.bunifuCards1.Controls.Add(this.label1);
-            this.bunifuCards1.LeftSahddow = false;
-            this.bunifuCards1.Location = new System.Drawing.Point(326, 12);
-            this.bunifuCards1.Name = "bunifuCards1";
-            this.bunifuCards1.RightSahddow = true;
-            this.bunifuCards1.ShadowDepth = 20;
-            this.bunifuCards1.Size = new System.Drawing.Size(605, 551);
-            this.bunifuCards1.TabIndex = 5;
-            // 
-            // guna2Separator1
-            // 
-            this.guna2Separator1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2Separator1.Location = new System.Drawing.Point(8, 57);
-            this.guna2Separator1.Name = "guna2Separator1";
-            this.guna2Separator1.Size = new System.Drawing.Size(586, 10);
-            this.guna2Separator1.TabIndex = 285;
-            // 
-            // label3
-            // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(379, 37);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(30, 17);
-            this.label3.TabIndex = 283;
-            this.label3.Text = "Fim";
-            // 
-            // label6
-            // 
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(226, 37);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(42, 17);
-            this.label6.TabIndex = 284;
-            this.label6.Text = "Inicio";
-            // 
-            // dt_2
-            // 
-            this.dt_2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.dt_2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dt_2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dt_2.Location = new System.Drawing.Point(412, 35);
-            this.dt_2.Name = "dt_2";
-            this.dt_2.Size = new System.Drawing.Size(101, 20);
-            this.dt_2.TabIndex = 282;
-            // 
-            // dt_1
-            // 
-            this.dt_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.dt_1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dt_1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dt_1.Location = new System.Drawing.Point(272, 35);
-            this.dt_1.Name = "dt_1";
-            this.dt_1.Size = new System.Drawing.Size(101, 20);
-            this.dt_1.TabIndex = 281;
-            // 
-            // guna2VSeparator2
-            // 
-            this.guna2VSeparator2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2VSeparator2.Location = new System.Drawing.Point(514, 5);
-            this.guna2VSeparator2.Name = "guna2VSeparator2";
-            this.guna2VSeparator2.Size = new System.Drawing.Size(10, 50);
-            this.guna2VSeparator2.TabIndex = 140;
-            // 
-            // btnBuscar
-            // 
-            this.btnBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnBuscar.BorderRadius = 10;
-            this.btnBuscar.CheckedState.Parent = this.btnBuscar;
-            this.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBuscar.CustomImages.Parent = this.btnBuscar;
-            this.btnBuscar.FillColor = System.Drawing.Color.White;
-            this.btnBuscar.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnBuscar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnBuscar.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(129)))), ((int)(((byte)(204)))));
-            this.btnBuscar.HoverState.ForeColor = System.Drawing.Color.White;
-            this.btnBuscar.HoverState.Parent = this.btnBuscar;
-            this.btnBuscar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnBuscar.Location = new System.Drawing.Point(530, 15);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.ShadowDecoration.Parent = this.btnBuscar;
-            this.btnBuscar.Size = new System.Drawing.Size(62, 31);
-            this.btnBuscar.TabIndex = 139;
-            this.btnBuscar.Text = "Buscar...";
-            // 
-            // label20
-            // 
-            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label20.Location = new System.Drawing.Point(339, 12);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(124, 16);
-            this.label20.TabIndex = 137;
-            this.label20.Text = "Escolha o período";
-            // 
-            // guna2CirclePictureBox3
-            // 
-            this.guna2CirclePictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox3.Image")));
-            this.guna2CirclePictureBox3.Location = new System.Drawing.Point(8, 15);
-            this.guna2CirclePictureBox3.Name = "guna2CirclePictureBox3";
-            this.guna2CirclePictureBox3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox3.ShadowDecoration.Parent = this.guna2CirclePictureBox3;
-            this.guna2CirclePictureBox3.Size = new System.Drawing.Size(30, 30);
-            this.guna2CirclePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox3.TabIndex = 85;
-            this.guna2CirclePictureBox3.TabStop = false;
-            // 
-            // lblTitulo
-            // 
-            this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.lblTitulo.Location = new System.Drawing.Point(41, 22);
-            this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(112, 19);
-            this.lblTitulo.TabIndex = 84;
-            this.lblTitulo.Text = "Meu Balanço";
-            // 
-            // DgVisualizador
-            // 
-            this.DgVisualizador.AllowUserToAddRows = false;
-            this.DgVisualizador.AllowUserToDeleteRows = false;
-            this.DgVisualizador.AllowUserToResizeRows = false;
-            this.DgVisualizador.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.DgVisualizador.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.DgVisualizador.BackgroundColor = System.Drawing.Color.White;
-            this.DgVisualizador.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.DgVisualizador.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.DgVisualizador.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle37.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle37.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle37.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle37.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle37.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle37.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgVisualizador.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle37;
-            this.DgVisualizador.ColumnHeadersHeight = 25;
-            this.DgVisualizador.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.DgVisualizador.EnableHeadersVisualStyles = false;
-            this.DgVisualizador.GridColor = System.Drawing.Color.Silver;
-            this.DgVisualizador.Location = new System.Drawing.Point(8, 86);
-            this.DgVisualizador.Name = "DgVisualizador";
-            this.DgVisualizador.ReadOnly = true;
-            this.DgVisualizador.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle38.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle38.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(240)))));
-            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DgVisualizador.RowHeadersDefaultCellStyle = dataGridViewCellStyle38;
-            this.DgVisualizador.RowHeadersVisible = false;
-            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle39.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle39.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DgVisualizador.RowsDefaultCellStyle = dataGridViewCellStyle39;
-            this.DgVisualizador.RowTemplate.Height = 30;
-            this.DgVisualizador.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DgVisualizador.Size = new System.Drawing.Size(586, 452);
-            this.DgVisualizador.TabIndex = 87;
-            // 
-            // guna2Separator11
-            // 
-            this.guna2Separator11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2Separator11.Location = new System.Drawing.Point(229, 25);
-            this.guna2Separator11.Name = "guna2Separator11";
-            this.guna2Separator11.Size = new System.Drawing.Size(279, 10);
-            this.guna2Separator11.TabIndex = 280;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label1.Location = new System.Drawing.Point(5, 67);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 16);
-            this.label1.TabIndex = 88;
-            this.label1.Text = "Movimentos";
+            this.Column6.HeaderText = "Data";
+            this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
             // 
             // FormMyBalance
             // 
@@ -943,19 +994,19 @@
             this.Text = "FormMyBalance";
             this.Load += new System.EventHandler(this.FormMyBalance_Load);
             this.panelPrincipal.ResumeLayout(false);
+            this.bunifuCards1.ResumeLayout(false);
+            this.bunifuCards1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DgVisualizador)).EndInit();
+            this.bunifuCards4.ResumeLayout(false);
+            this.bunifuCards4.PerformLayout();
+            this.bunifuCards3.ResumeLayout(false);
             this.bunifuCards2.ResumeLayout(false);
             this.panelPerfil.ResumeLayout(false);
             this.panelPerfil.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picture_img)).EndInit();
             this.panelMaisInfor.ResumeLayout(false);
             this.panelMaisInfor.PerformLayout();
-            this.bunifuCards3.ResumeLayout(false);
-            this.bunifuCards4.ResumeLayout(false);
-            this.bunifuCards4.PerformLayout();
-            this.bunifuCards1.ResumeLayout(false);
-            this.bunifuCards1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DgVisualizador)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1020,5 +1071,11 @@
         private System.Windows.Forms.Label label9;
         private Guna.UI2.WinForms.Guna2CustomRadioButton RBNotActivo;
         private Guna.UI2.WinForms.Guna2CustomRadioButton RBActivo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
     }
 }
