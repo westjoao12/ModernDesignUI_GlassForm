@@ -206,6 +206,7 @@
             this.btnBuscarImg.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnBuscarImg.TextOffset = new System.Drawing.Point(16, 0);
             this.toolTip1.SetToolTip(this.btnBuscarImg, "Buscar\r\nImagem");
+            this.btnBuscarImg.Click += new System.EventHandler(this.btnBuscarImg_Click);
             // 
             // picture_img
             // 
@@ -272,9 +273,9 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.label5.Location = new System.Drawing.Point(35, 502);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(200, 17);
+            this.label5.Size = new System.Drawing.Size(210, 17);
             this.label5.TabIndex = 219;
-            this.label5.Text = "Tecla Esc: Para sair do formulário";
+            this.label5.Text = "Tecla [Esc]: Para sair do formulário";
             // 
             // btnGuardar
             // 
@@ -453,6 +454,7 @@
             this.btnSair.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnSair.TextOffset = new System.Drawing.Point(16, 0);
             this.toolTip1.SetToolTip(this.btnSair, "Sair?");
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // lblTitulo
             // 
