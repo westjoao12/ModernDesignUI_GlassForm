@@ -1,5 +1,6 @@
 ﻿using Bunifu.Framework.UI;
 using BunifuAnimatorNS;
+using ModernDesignUI_GlassForm.Forms_Auxiliares;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -222,6 +223,20 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
             panelexe.Visible = false;
 
             T1.ShowSync(panelexe);
+        }
+
+        private void btnMRendiREgistroRenda_Click(object sender, EventArgs e)
+        {
+            panelCabecalho.BottomSahddow = false;
+
+            panelexe.Controls.Clear();
+            panelexe.SendToBack();
+
+            panelMenus.BringToFront();
+            panelMenuBase.Visible = false;
+
+            FormIncome frm = new FormIncome();
+            frm.ShowDialog();
         }
 
 
