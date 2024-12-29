@@ -32,13 +32,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormUser));
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.btnBuscarImg = new Guna.UI2.WinForms.Guna2Button();
+            this.btnSair = new Guna.UI2.WinForms.Guna2Button();
             this.panelCad = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.txt_percent = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.cmb_categoria = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.lblErroCategoria = new System.Windows.Forms.Label();
-            this.btnBuscarImg = new Guna.UI2.WinForms.Guna2Button();
             this.picture_img = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.cmb_funcionario = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -51,7 +52,6 @@
             this.txt_senha = new Guna.UI2.WinForms.Guna2TextBox();
             this.lblsenhaErro = new System.Windows.Forms.Label();
             this.txt_nome = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnSair = new Guna.UI2.WinForms.Guna2Button();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblNomeErro = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -65,6 +65,58 @@
             // 
             this.bunifuElipse1.ElipseRadius = 15;
             this.bunifuElipse1.TargetControl = this;
+            // 
+            // btnBuscarImg
+            // 
+            this.btnBuscarImg.BorderRadius = 22;
+            this.btnBuscarImg.CheckedState.Parent = this.btnBuscarImg;
+            this.btnBuscarImg.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBuscarImg.CustomImages.Parent = this.btnBuscarImg;
+            this.btnBuscarImg.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnBuscarImg.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnBuscarImg.ForeColor = System.Drawing.Color.White;
+            this.btnBuscarImg.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(129)))), ((int)(((byte)(204)))));
+            this.btnBuscarImg.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnBuscarImg.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarImg.HoverState.Image")));
+            this.btnBuscarImg.HoverState.Parent = this.btnBuscarImg;
+            this.btnBuscarImg.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarImg.Image")));
+            this.btnBuscarImg.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnBuscarImg.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnBuscarImg.Location = new System.Drawing.Point(344, 191);
+            this.btnBuscarImg.Name = "btnBuscarImg";
+            this.btnBuscarImg.ShadowDecoration.Parent = this.btnBuscarImg;
+            this.btnBuscarImg.Size = new System.Drawing.Size(50, 45);
+            this.btnBuscarImg.TabIndex = 224;
+            this.btnBuscarImg.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnBuscarImg.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnBuscarImg, "Buscar\r\nImagem");
+            this.btnBuscarImg.Click += new System.EventHandler(this.btnBuscarImg_Click);
+            // 
+            // btnSair
+            // 
+            this.btnSair.BorderRadius = 22;
+            this.btnSair.CheckedState.Parent = this.btnSair;
+            this.btnSair.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSair.CustomImages.Parent = this.btnSair;
+            this.btnSair.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnSair.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnSair.ForeColor = System.Drawing.Color.White;
+            this.btnSair.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(240)))));
+            this.btnSair.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
+            this.btnSair.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.HoverState.Image")));
+            this.btnSair.HoverState.Parent = this.btnSair;
+            this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
+            this.btnSair.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSair.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnSair.Location = new System.Drawing.Point(373, 17);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.ShadowDecoration.Parent = this.btnSair;
+            this.btnSair.Size = new System.Drawing.Size(50, 45);
+            this.btnSair.TabIndex = 170;
+            this.btnSair.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSair.TextOffset = new System.Drawing.Point(16, 0);
+            this.toolTip1.SetToolTip(this.btnSair, "Sair?");
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // panelCad
             // 
@@ -181,32 +233,6 @@
             this.lblErroCategoria.Name = "lblErroCategoria";
             this.lblErroCategoria.Size = new System.Drawing.Size(0, 17);
             this.lblErroCategoria.TabIndex = 227;
-            // 
-            // btnBuscarImg
-            // 
-            this.btnBuscarImg.BorderRadius = 22;
-            this.btnBuscarImg.CheckedState.Parent = this.btnBuscarImg;
-            this.btnBuscarImg.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBuscarImg.CustomImages.Parent = this.btnBuscarImg;
-            this.btnBuscarImg.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnBuscarImg.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnBuscarImg.ForeColor = System.Drawing.Color.White;
-            this.btnBuscarImg.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(129)))), ((int)(((byte)(204)))));
-            this.btnBuscarImg.HoverState.ForeColor = System.Drawing.Color.White;
-            this.btnBuscarImg.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarImg.HoverState.Image")));
-            this.btnBuscarImg.HoverState.Parent = this.btnBuscarImg;
-            this.btnBuscarImg.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarImg.Image")));
-            this.btnBuscarImg.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnBuscarImg.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnBuscarImg.Location = new System.Drawing.Point(344, 191);
-            this.btnBuscarImg.Name = "btnBuscarImg";
-            this.btnBuscarImg.ShadowDecoration.Parent = this.btnBuscarImg;
-            this.btnBuscarImg.Size = new System.Drawing.Size(50, 45);
-            this.btnBuscarImg.TabIndex = 224;
-            this.btnBuscarImg.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnBuscarImg.TextOffset = new System.Drawing.Point(16, 0);
-            this.toolTip1.SetToolTip(this.btnBuscarImg, "Buscar\r\nImagem");
-            this.btnBuscarImg.Click += new System.EventHandler(this.btnBuscarImg_Click);
             // 
             // picture_img
             // 
@@ -430,32 +456,6 @@
             this.txt_nome.Size = new System.Drawing.Size(351, 36);
             this.txt_nome.TabIndex = 171;
             // 
-            // btnSair
-            // 
-            this.btnSair.BorderRadius = 22;
-            this.btnSair.CheckedState.Parent = this.btnSair;
-            this.btnSair.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSair.CustomImages.Parent = this.btnSair;
-            this.btnSair.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnSair.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnSair.ForeColor = System.Drawing.Color.White;
-            this.btnSair.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(240)))));
-            this.btnSair.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
-            this.btnSair.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.HoverState.Image")));
-            this.btnSair.HoverState.Parent = this.btnSair;
-            this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
-            this.btnSair.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnSair.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnSair.Location = new System.Drawing.Point(373, 17);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.ShadowDecoration.Parent = this.btnSair;
-            this.btnSair.Size = new System.Drawing.Size(50, 45);
-            this.btnSair.TabIndex = 170;
-            this.btnSair.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnSair.TextOffset = new System.Drawing.Point(16, 0);
-            this.toolTip1.SetToolTip(this.btnSair, "Sair?");
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
-            // 
             // lblTitulo
             // 
             this.lblTitulo.AutoSize = true;
@@ -500,7 +500,7 @@
             this.lblNivelErro.Size = new System.Drawing.Size(0, 17);
             this.lblNivelErro.TabIndex = 184;
             // 
-            // FormCadastroUsuario
+            // FormUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -508,9 +508,10 @@
             this.ClientSize = new System.Drawing.Size(435, 519);
             this.Controls.Add(this.panelCad);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FormCadastroUsuario";
+            this.Name = "FormUser";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormCadastroUsuario";
+            this.Text = "User";
+            this.TopMost = true;
             this.panelCad.ResumeLayout(false);
             this.panelCad.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txt_percent)).EndInit();

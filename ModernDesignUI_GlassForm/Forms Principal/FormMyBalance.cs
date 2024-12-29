@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ModernDesignUI_GlassForm.Forms_Auxiliares;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -64,6 +65,23 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
         private void btnEditar_Click(object sender, EventArgs e)
         {
             Form formBG = new Form();
+            using (FormUser mm = new FormUser())
+            {
+                formBG.StartPosition = FormStartPosition.Manual;
+                formBG.FormBorderStyle = FormBorderStyle.None;
+                formBG.Opacity = .70d;
+                formBG.BackColor = Color.Black;
+                formBG.WindowState = FormWindowState.Maximized;
+                formBG.TopMost = true;
+                formBG.Location = this.Location;
+                formBG.ShowInTaskbar = false;
+                formBG.Show();
+
+                mm.Owner = formBG;
+                mm.ShowDialog();
+
+                formBG.Dispose();
+            }
         }
     }
 }
