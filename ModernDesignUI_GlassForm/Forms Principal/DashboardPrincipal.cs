@@ -239,7 +239,5 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
             frm.ShowDialog();
         }
 
-
-
     }
 }
