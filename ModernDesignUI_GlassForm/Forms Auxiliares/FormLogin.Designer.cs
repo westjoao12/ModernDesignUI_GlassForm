@@ -189,6 +189,7 @@
             this.bunifuImageButton1.TabIndex = 192;
             this.bunifuImageButton1.TabStop = false;
             this.bunifuImageButton1.Zoom = 8;
+            this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
             // 
             // btnMinimizar
             // 
@@ -205,6 +206,7 @@
             this.btnMinimizar.TabStop = false;
             this.btnMinimizar.Tag = "";
             this.btnMinimizar.Zoom = 8;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
             // 
             // label3
             // 
@@ -240,6 +242,7 @@
             this.btnLogin.Size = new System.Drawing.Size(176, 44);
             this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "Logar-se...";
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // txt_senha
             // 
@@ -331,6 +334,7 @@
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LOGIN";
+            this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panelLateral.ResumeLayout(false);
             this.panelLateral.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();

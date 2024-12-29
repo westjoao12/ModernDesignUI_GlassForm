@@ -265,5 +265,12 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
             T1.ShowSync(panelexe);
         }
 
+        private void btnTrocarUsuario_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormLogin frm = new FormLogin();
+            frm.Show();
+        }
+
     }
 }
