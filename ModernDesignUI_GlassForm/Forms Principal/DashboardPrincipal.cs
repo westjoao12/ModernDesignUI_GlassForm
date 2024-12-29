@@ -272,6 +272,13 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
             frm.Show();
         }
 
+        private void brnLogin_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormLogin frm = new FormLogin();
+            frm.Show();
+        }
+
 
 
 

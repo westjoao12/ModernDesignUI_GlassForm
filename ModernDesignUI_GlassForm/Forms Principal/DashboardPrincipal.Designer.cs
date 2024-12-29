@@ -211,6 +211,7 @@
             this.brnLogin.Size = new System.Drawing.Size(25, 25);
             this.brnLogin.TabIndex = 84;
             this.toolTip1.SetToolTip(this.brnLogin, "Login");
+            this.brnLogin.Click += new System.EventHandler(this.brnLogin_Click);
             // 
             // btnHome
             // 
