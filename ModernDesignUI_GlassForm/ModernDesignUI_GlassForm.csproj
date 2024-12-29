@@ -56,11 +56,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms Auxiliares\FormCadastroUsuario.cs">
+    <Compile Include="Forms Auxiliares\FormUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms Auxiliares\FormCadastroUsuario.Designer.cs">
-      <DependentUpon>FormCadastroUsuario.cs</DependentUpon>
+    <Compile Include="Forms Auxiliares\FormUser.Designer.cs">
+      <DependentUpon>FormUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms Principal\DashboardPrincipal.cs">
       <SubType>Form</SubType>
@@ -82,8 +82,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms Auxiliares\FormCadastroUsuario.resx">
-      <DependentUpon>FormCadastroUsuario.cs</DependentUpon>
+    <EmbeddedResource Include="Forms Auxiliares\FormUser.resx">
+      <DependentUpon>FormUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms Principal\DashboardPrincipal.resx">
       <DependentUpon>DashboardPrincipal.cs</DependentUpon>

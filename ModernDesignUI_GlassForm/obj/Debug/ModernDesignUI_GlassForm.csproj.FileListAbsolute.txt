@@ -13,4 +13,4 @@ C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\bin\D
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\bin\Debug\Guna.UI2.dll
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.Forms_Principal.FormMyBalance.resources
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.csprojResolveAssemblyReference.cache
-C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.Forms_Auxiliares.FormCadastroUsuario.resources
+C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.Forms_Auxiliares.FormUser.resources

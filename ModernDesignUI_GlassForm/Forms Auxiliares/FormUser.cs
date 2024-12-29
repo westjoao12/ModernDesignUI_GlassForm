@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ModernDesignUI_GlassForm.Forms_Auxiliares
 {
-    public partial class FormCadastroUsuario : Form
+    public partial class FormUser : Form
     {
-        public FormCadastroUsuario()
+        public FormUser()
         {
             InitializeComponent();
             cmb_funcionario.SelectedIndex = 1;

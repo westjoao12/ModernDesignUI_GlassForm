@@ -60,5 +60,10 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
             panelPerfil.Visible = true;
             panelMaisInfor.Visible = false;
         }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            Form formBG = new Form();
+        }
     }
 }
