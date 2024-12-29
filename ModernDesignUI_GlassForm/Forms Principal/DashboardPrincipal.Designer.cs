@@ -499,9 +499,9 @@
             // 
             // panelMenuBase
             // 
+            this.panelMenuBase.Controls.Add(this.panelMenuRelatorios);
             this.panelMenuBase.Controls.Add(this.btnCloseMenu);
             this.panelMenuBase.Controls.Add(this.panelMenuRendimento);
-            this.panelMenuBase.Controls.Add(this.panelMenuRelatorios);
             this.panelMenuBase.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenuBase.Location = new System.Drawing.Point(0, 0);
             this.panelMenuBase.Name = "panelMenuBase";
