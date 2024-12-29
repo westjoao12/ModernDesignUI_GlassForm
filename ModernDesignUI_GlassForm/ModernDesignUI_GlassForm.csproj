@@ -56,6 +56,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms Auxiliares\FormIncome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Auxiliares\FormIncome.Designer.cs">
+      <DependentUpon>FormIncome.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms Auxiliares\FormUser.cs">
       <SubType>Form</SubType>
     </Compile>
