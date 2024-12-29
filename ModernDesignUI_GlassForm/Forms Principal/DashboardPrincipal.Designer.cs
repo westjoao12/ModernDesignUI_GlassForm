@@ -483,11 +483,11 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label4.Location = new System.Drawing.Point(111, 465);
+            this.label4.Location = new System.Drawing.Point(110, 465);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(377, 17);
+            this.label4.Size = new System.Drawing.Size(378, 17);
             this.label4.TabIndex = 22;
-            this.label4.Text = "Copyright ©  2024 Wobotec. Todos os direitos reservados.";
+            this.label4.Text = "Copyright ©  2024 company. Todos os direitos reservados.";
             // 
             // label3
             // 
