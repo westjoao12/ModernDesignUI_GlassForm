@@ -45,12 +45,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.dataGridViewImageColumn3 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txt_cabeca_Depa = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.btnFDepa = new Bunifu.Framework.UI.BunifuImageButton();
             this.txt_depa = new Bunifu.Framework.UI.BunifuMaterialTextbox();
@@ -73,9 +67,7 @@
             this.btnEditarImposto = new Guna.UI2.WinForms.Guna2Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.bunifuCards4 = new Bunifu.Framework.UI.BunifuCards();
-            this.dataGridViewImageColumn4 = new System.Windows.Forms.DataGridViewImageColumn();
             this.bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.swtCadEdit = new Guna.UI2.WinForms.Guna2ToggleSwitch();
@@ -100,7 +92,6 @@
             this.txt_nif = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.txt_nome = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.picture_img = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label4 = new System.Windows.Forms.Label();
             this.bunifuCards9 = new Bunifu.Framework.UI.BunifuCards();
             this.txt_percent_func_distri = new Guna.UI2.WinForms.Guna2NumericUpDown();
@@ -149,6 +140,13 @@
             this.btnSalvaTP = new Guna.UI2.WinForms.Guna2Button();
             this.dg_Tipo_Projecto = new System.Windows.Forms.DataGridView();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewImageColumn3 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dataGridViewImageColumn4 = new System.Windows.Forms.DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)(this.btnFDepa)).BeginInit();
             this.bunifuCards3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -188,63 +186,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.dg_Tipo_Projecto)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridViewImageColumn3
-            // 
-            this.dataGridViewImageColumn3.FillWeight = 50F;
-            this.dataGridViewImageColumn3.HeaderText = "A";
-            this.dataGridViewImageColumn3.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn3.Image")));
-            this.dataGridViewImageColumn3.Name = "dataGridViewImageColumn3";
-            this.dataGridViewImageColumn3.ReadOnly = true;
-            this.dataGridViewImageColumn3.ToolTipText = "Editar";
-            // 
-            // Column4
-            // 
-            this.Column4.FillWeight = 50F;
-            this.Column4.HeaderText = "E";
-            this.Column4.Image = ((System.Drawing.Image)(resources.GetObject("Column4.Image")));
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            this.Column4.ToolTipText = "Eliminar";
-            // 
-            // Column5
-            // 
-            this.Column5.FillWeight = 50F;
-            this.Column5.HeaderText = "A";
-            this.Column5.Image = ((System.Drawing.Image)(resources.GetObject("Column5.Image")));
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
-            this.Column5.ToolTipText = "Editar";
-            // 
-            // Column12
-            // 
-            this.Column12.HeaderText = "Cabeçalho";
-            this.Column12.Name = "Column12";
-            this.Column12.ReadOnly = true;
-            this.Column12.Visible = false;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dataGridViewTextBoxColumn1.FillWeight = 200F;
-            this.dataGridViewTextBoxColumn1.HeaderText = "Departamentos";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Width = 164;
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Id";
-            this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
-            this.Column6.Visible = false;
-            // 
             // txt_cabeca_Depa
             // 
             this.txt_cabeca_Depa.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_cabeca_Depa.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_cabeca_Depa.ForeColor = System.Drawing.Color.White;
             this.txt_cabeca_Depa.HintForeColor = System.Drawing.Color.WhiteSmoke;
-            this.txt_cabeca_Depa.HintText = "Cabeçalho";
+            this.txt_cabeca_Depa.HintText = "Header";
             this.txt_cabeca_Depa.isPassword = false;
             this.txt_cabeca_Depa.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(240)))));
             this.txt_cabeca_Depa.LineIdleColor = System.Drawing.Color.Gray;
@@ -278,7 +226,7 @@
             this.txt_depa.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_depa.ForeColor = System.Drawing.Color.White;
             this.txt_depa.HintForeColor = System.Drawing.Color.WhiteSmoke;
-            this.txt_depa.HintText = "Departamento";
+            this.txt_depa.HintText = "Departament";
             this.txt_depa.isPassword = false;
             this.txt_depa.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(240)))));
             this.txt_depa.LineIdleColor = System.Drawing.Color.Gray;
@@ -326,7 +274,7 @@
             this.bunifuCards3.Controls.Add(this.label1);
             this.bunifuCards3.Controls.Add(this.DgViewBanco);
             this.bunifuCards3.LeftSahddow = false;
-            this.bunifuCards3.Location = new System.Drawing.Point(233, 12);
+            this.bunifuCards3.Location = new System.Drawing.Point(253, 12);
             this.bunifuCards3.Name = "bunifuCards3";
             this.bunifuCards3.RightSahddow = true;
             this.bunifuCards3.ShadowDepth = 20;
@@ -352,7 +300,7 @@
             this.btnEliminarBanco.ShadowDecoration.Parent = this.btnEliminarBanco;
             this.btnEliminarBanco.Size = new System.Drawing.Size(62, 31);
             this.btnEliminarBanco.TabIndex = 138;
-            this.btnEliminarBanco.Text = "Eliminar";
+            this.btnEliminarBanco.Text = "Delete";
             // 
             // btnEditarBanco
             // 
@@ -373,7 +321,7 @@
             this.btnEditarBanco.ShadowDecoration.Parent = this.btnEditarBanco;
             this.btnEditarBanco.Size = new System.Drawing.Size(62, 31);
             this.btnEditarBanco.TabIndex = 137;
-            this.btnEditarBanco.Text = "Editar";
+            this.btnEditarBanco.Text = "Edit";
             // 
             // btnNovoBanco
             // 
@@ -397,7 +345,7 @@
             this.btnNovoBanco.ShadowDecoration.Parent = this.btnNovoBanco;
             this.btnNovoBanco.Size = new System.Drawing.Size(89, 40);
             this.btnNovoBanco.TabIndex = 136;
-            this.btnNovoBanco.Text = "Novo";
+            this.btnNovoBanco.Text = "New";
             this.btnNovoBanco.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnNovoBanco.TextOffset = new System.Drawing.Point(10, 0);
             // 
@@ -418,9 +366,9 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.label1.Location = new System.Drawing.Point(155, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(168, 16);
+            this.label1.Size = new System.Drawing.Size(143, 16);
             this.label1.TabIndex = 134;
-            this.label1.Text = "Coordenadas bancárias";
+            this.label1.Text = "Banking coordinates";
             // 
             // DgViewBanco
             // 
@@ -495,7 +443,7 @@
             this.btnNewDepa.ShadowDecoration.Parent = this.btnNewDepa;
             this.btnNewDepa.Size = new System.Drawing.Size(89, 40);
             this.btnNewDepa.TabIndex = 114;
-            this.btnNewDepa.Text = "Novo";
+            this.btnNewDepa.Text = "New";
             this.btnNewDepa.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnNewDepa.TextOffset = new System.Drawing.Point(10, 0);
             // 
@@ -541,7 +489,7 @@
             this.btnNovoImposto.ShadowDecoration.Parent = this.btnNovoImposto;
             this.btnNovoImposto.Size = new System.Drawing.Size(89, 40);
             this.btnNovoImposto.TabIndex = 131;
-            this.btnNovoImposto.Text = "Novo";
+            this.btnNovoImposto.Text = "New";
             this.btnNovoImposto.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnNovoImposto.TextOffset = new System.Drawing.Point(10, 0);
             // 
@@ -613,9 +561,9 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.label2.Location = new System.Drawing.Point(155, 10);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(151, 16);
+            this.label2.Size = new System.Drawing.Size(121, 16);
             this.label2.TabIndex = 112;
-            this.label2.Text = "Definições de imposto";
+            this.label2.Text = "Tax configuration";
             // 
             // DgDepa
             // 
@@ -641,9 +589,7 @@
             this.DgDepa.ColumnHeadersHeight = 25;
             this.DgDepa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.DgDepa.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column6,
             this.dataGridViewTextBoxColumn1,
-            this.Column12,
             this.Column5,
             this.Column4});
             this.DgDepa.Cursor = System.Windows.Forms.Cursors.Default;
@@ -694,7 +640,7 @@
             this.btnEliminarImposto.ShadowDecoration.Parent = this.btnEliminarImposto;
             this.btnEliminarImposto.Size = new System.Drawing.Size(62, 31);
             this.btnEliminarImposto.TabIndex = 133;
-            this.btnEliminarImposto.Text = "Eliminar";
+            this.btnEliminarImposto.Text = "Delete";
             // 
             // btnEditarImposto
             // 
@@ -715,7 +661,7 @@
             this.btnEditarImposto.ShadowDecoration.Parent = this.btnEditarImposto;
             this.btnEditarImposto.Size = new System.Drawing.Size(62, 31);
             this.btnEditarImposto.TabIndex = 132;
-            this.btnEditarImposto.Text = "Editar";
+            this.btnEditarImposto.Text = "Edit";
             // 
             // panel3
             // 
@@ -738,21 +684,12 @@
             this.bunifuCards4.Controls.Add(this.DgViewImposto);
             this.bunifuCards4.Controls.Add(this.label2);
             this.bunifuCards4.LeftSahddow = false;
-            this.bunifuCards4.Location = new System.Drawing.Point(233, 286);
+            this.bunifuCards4.Location = new System.Drawing.Point(253, 286);
             this.bunifuCards4.Name = "bunifuCards4";
             this.bunifuCards4.RightSahddow = true;
             this.bunifuCards4.ShadowDepth = 20;
             this.bunifuCards4.Size = new System.Drawing.Size(391, 256);
             this.bunifuCards4.TabIndex = 114;
-            // 
-            // dataGridViewImageColumn4
-            // 
-            this.dataGridViewImageColumn4.FillWeight = 50F;
-            this.dataGridViewImageColumn4.HeaderText = "E";
-            this.dataGridViewImageColumn4.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn4.Image")));
-            this.dataGridViewImageColumn4.Name = "dataGridViewImageColumn4";
-            this.dataGridViewImageColumn4.ReadOnly = true;
-            this.dataGridViewImageColumn4.ToolTipText = "Eliminar";
             // 
             // bunifuCards1
             // 
@@ -765,21 +702,12 @@
             this.bunifuCards1.Controls.Add(this.panelNewDepa);
             this.bunifuCards1.Controls.Add(this.DgDepa);
             this.bunifuCards1.LeftSahddow = false;
-            this.bunifuCards1.Location = new System.Drawing.Point(-6, 12);
+            this.bunifuCards1.Location = new System.Drawing.Point(3, 12);
             this.bunifuCards1.Name = "bunifuCards1";
             this.bunifuCards1.RightSahddow = true;
             this.bunifuCards1.ShadowDepth = 20;
             this.bunifuCards1.Size = new System.Drawing.Size(235, 551);
             this.bunifuCards1.TabIndex = 3;
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dataGridViewTextBoxColumn6.FillWeight = 200F;
-            this.dataGridViewTextBoxColumn6.HeaderText = "Tipos de Projectos";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.ReadOnly = true;
-            this.dataGridViewTextBoxColumn6.Width = 164;
             // 
             // dataGridViewImageColumn2
             // 
@@ -927,7 +855,7 @@
             this.txt_localizacao.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_localizacao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_localizacao.HintForeColor = System.Drawing.Color.Empty;
-            this.txt_localizacao.HintText = "Localização";
+            this.txt_localizacao.HintText = "Address";
             this.txt_localizacao.isPassword = false;
             this.txt_localizacao.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
             this.txt_localizacao.LineIdleColor = System.Drawing.Color.Gray;
@@ -1064,7 +992,7 @@
             this.btnSalvarProfile.ShadowDecoration.Parent = this.btnSalvarProfile;
             this.btnSalvarProfile.Size = new System.Drawing.Size(129, 40);
             this.btnSalvarProfile.TabIndex = 106;
-            this.btnSalvarProfile.Text = "Guardar...";
+            this.btnSalvarProfile.Text = "Save...";
             this.btnSalvarProfile.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnSalvarProfile.TextOffset = new System.Drawing.Point(10, 0);
             // 
@@ -1074,7 +1002,7 @@
             this.txt_email.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_email.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(240)))));
             this.txt_email.HintForeColor = System.Drawing.Color.Empty;
-            this.txt_email.HintText = "Email da empresa";
+            this.txt_email.HintText = "Email address";
             this.txt_email.isPassword = false;
             this.txt_email.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
             this.txt_email.LineIdleColor = System.Drawing.Color.Gray;
@@ -1093,7 +1021,7 @@
             this.txt_contacto.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txt_contacto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_contacto.HintForeColor = System.Drawing.Color.Empty;
-            this.txt_contacto.HintText = "Contactos da empresa";
+            this.txt_contacto.HintText = "Contact";
             this.txt_contacto.isPassword = false;
             this.txt_contacto.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
             this.txt_contacto.LineIdleColor = System.Drawing.Color.Gray;
@@ -1112,7 +1040,7 @@
             this.txt_nif.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.txt_nif.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_nif.HintForeColor = System.Drawing.Color.Empty;
-            this.txt_nif.HintText = "Nif da empresa";
+            this.txt_nif.HintText = "Company ID";
             this.txt_nif.isPassword = false;
             this.txt_nif.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
             this.txt_nif.LineIdleColor = System.Drawing.Color.Gray;
@@ -1131,7 +1059,7 @@
             this.txt_nome.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_nome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_nome.HintForeColor = System.Drawing.Color.Empty;
-            this.txt_nome.HintText = "Nome da Empresa";
+            this.txt_nome.HintText = "Company Name";
             this.txt_nome.isPassword = false;
             this.txt_nome.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(58)))), ((int)(((byte)(183)))));
             this.txt_nome.LineIdleColor = System.Drawing.Color.Gray;
@@ -1155,13 +1083,6 @@
             this.picture_img.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picture_img.TabIndex = 98;
             this.picture_img.TabStop = false;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.HeaderText = "Id";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.ReadOnly = true;
-            this.dataGridViewTextBoxColumn5.Visible = false;
             // 
             // label4
             // 
@@ -1194,7 +1115,7 @@
             this.bunifuCards9.Controls.Add(this.txt_percent_empresa_distri);
             this.bunifuCards9.Controls.Add(this.Btn_Save_Percent_Geral);
             this.bunifuCards9.LeftSahddow = false;
-            this.bunifuCards9.Location = new System.Drawing.Point(-6, 1147);
+            this.bunifuCards9.Location = new System.Drawing.Point(3, 1147);
             this.bunifuCards9.Name = "bunifuCards9";
             this.bunifuCards9.RightSahddow = true;
             this.bunifuCards9.ShadowDepth = 20;
@@ -1362,7 +1283,7 @@
             this.Btn_Save_Percent_Geral.ShadowDecoration.Parent = this.Btn_Save_Percent_Geral;
             this.Btn_Save_Percent_Geral.Size = new System.Drawing.Size(125, 40);
             this.Btn_Save_Percent_Geral.TabIndex = 114;
-            this.Btn_Save_Percent_Geral.Text = "Guardar...";
+            this.Btn_Save_Percent_Geral.Text = "Save...";
             this.Btn_Save_Percent_Geral.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.Btn_Save_Percent_Geral.TextOffset = new System.Drawing.Point(10, 0);
             // 
@@ -1397,7 +1318,7 @@
             this.bunifuCards7.Controls.Add(this.guna2Separator6);
             this.bunifuCards7.Controls.Add(this.label21);
             this.bunifuCards7.LeftSahddow = false;
-            this.bunifuCards7.Location = new System.Drawing.Point(313, 1147);
+            this.bunifuCards7.Location = new System.Drawing.Point(333, 1147);
             this.bunifuCards7.Name = "bunifuCards7";
             this.bunifuCards7.RightSahddow = true;
             this.bunifuCards7.ShadowDepth = 20;
@@ -1541,7 +1462,7 @@
             this.Btn_Save_Sub_Percent.ShadowDecoration.Parent = this.Btn_Save_Sub_Percent;
             this.Btn_Save_Sub_Percent.Size = new System.Drawing.Size(125, 40);
             this.Btn_Save_Sub_Percent.TabIndex = 114;
-            this.Btn_Save_Sub_Percent.Text = "Guardar...";
+            this.Btn_Save_Sub_Percent.Text = "Save...";
             this.Btn_Save_Sub_Percent.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.Btn_Save_Sub_Percent.TextOffset = new System.Drawing.Point(10, 0);
             // 
@@ -1630,7 +1551,7 @@
             this.Btn_Save_Saque_Minimo.ShadowDecoration.Parent = this.Btn_Save_Saque_Minimo;
             this.Btn_Save_Saque_Minimo.Size = new System.Drawing.Size(125, 40);
             this.Btn_Save_Saque_Minimo.TabIndex = 114;
-            this.Btn_Save_Saque_Minimo.Text = "Guardar...";
+            this.Btn_Save_Saque_Minimo.Text = "Save...";
             this.Btn_Save_Saque_Minimo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.Btn_Save_Saque_Minimo.TextOffset = new System.Drawing.Point(10, 0);
             // 
@@ -1677,7 +1598,7 @@
             this.bunifuCards8.Controls.Add(this.txt_saque_minimo);
             this.bunifuCards8.Controls.Add(this.Btn_Save_Saque_Minimo);
             this.bunifuCards8.LeftSahddow = false;
-            this.bunifuCards8.Location = new System.Drawing.Point(-6, 1703);
+            this.bunifuCards8.Location = new System.Drawing.Point(3, 1703);
             this.bunifuCards8.Name = "bunifuCards8";
             this.bunifuCards8.RightSahddow = true;
             this.bunifuCards8.ShadowDepth = 20;
@@ -1719,7 +1640,7 @@
             this.bunifuCards6.Controls.Add(this.btnNovoArquivo);
             this.bunifuCards6.Controls.Add(this.dg_Arquivos_MM);
             this.bunifuCards6.LeftSahddow = false;
-            this.bunifuCards6.Location = new System.Drawing.Point(247, 585);
+            this.bunifuCards6.Location = new System.Drawing.Point(267, 585);
             this.bunifuCards6.Name = "bunifuCards6";
             this.bunifuCards6.RightSahddow = true;
             this.bunifuCards6.ShadowDepth = 20;
@@ -1748,7 +1669,7 @@
             this.btnVerArquivo.ShadowDecoration.Parent = this.btnVerArquivo;
             this.btnVerArquivo.Size = new System.Drawing.Size(120, 40);
             this.btnVerArquivo.TabIndex = 115;
-            this.btnVerArquivo.Text = "Ver Arquivo";
+            this.btnVerArquivo.Text = "View File";
             this.btnVerArquivo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnVerArquivo.TextOffset = new System.Drawing.Point(10, 0);
             // 
@@ -1774,7 +1695,7 @@
             this.btnNovoArquivo.ShadowDecoration.Parent = this.btnNovoArquivo;
             this.btnNovoArquivo.Size = new System.Drawing.Size(89, 40);
             this.btnNovoArquivo.TabIndex = 114;
-            this.btnNovoArquivo.Text = "Novo";
+            this.btnNovoArquivo.Text = "New";
             this.btnNovoArquivo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnNovoArquivo.TextOffset = new System.Drawing.Point(10, 0);
             // 
@@ -1880,7 +1801,7 @@
             this.bunifuCards5.Controls.Add(this.panelNewTP);
             this.bunifuCards5.Controls.Add(this.dg_Tipo_Projecto);
             this.bunifuCards5.LeftSahddow = false;
-            this.bunifuCards5.Location = new System.Drawing.Point(-6, 585);
+            this.bunifuCards5.Location = new System.Drawing.Point(3, 585);
             this.bunifuCards5.Name = "bunifuCards5";
             this.bunifuCards5.RightSahddow = true;
             this.bunifuCards5.ShadowDepth = 20;
@@ -1909,7 +1830,7 @@
             this.btnNovoTP.ShadowDecoration.Parent = this.btnNovoTP;
             this.btnNovoTP.Size = new System.Drawing.Size(89, 40);
             this.btnNovoTP.TabIndex = 114;
-            this.btnNovoTP.Text = "Novo";
+            this.btnNovoTP.Text = "New";
             this.btnNovoTP.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnNovoTP.TextOffset = new System.Drawing.Point(10, 0);
             // 
@@ -1938,7 +1859,7 @@
             this.txt_tipo_projecto.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_tipo_projecto.ForeColor = System.Drawing.Color.White;
             this.txt_tipo_projecto.HintForeColor = System.Drawing.Color.WhiteSmoke;
-            this.txt_tipo_projecto.HintText = "Tipo projecto";
+            this.txt_tipo_projecto.HintText = "Project Type";
             this.txt_tipo_projecto.isPassword = false;
             this.txt_tipo_projecto.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(240)))));
             this.txt_tipo_projecto.LineIdleColor = System.Drawing.Color.Gray;
@@ -1970,7 +1891,7 @@
             this.btnSalvaTP.ShadowDecoration.Parent = this.btnSalvaTP;
             this.btnSalvaTP.Size = new System.Drawing.Size(62, 31);
             this.btnSalvaTP.TabIndex = 117;
-            this.btnSalvaTP.Text = "Salvar";
+            this.btnSalvaTP.Text = "Save";
             // 
             // dg_Tipo_Projecto
             // 
@@ -2039,6 +1960,67 @@
             this.dataGridViewImageColumn1.ToolTipText = "Editar";
             this.dataGridViewImageColumn1.Width = 27;
             // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn1.FillWeight = 200F;
+            this.dataGridViewTextBoxColumn1.HeaderText = "Departments";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Width = 164;
+            // 
+            // Column5
+            // 
+            this.Column5.FillWeight = 50F;
+            this.Column5.HeaderText = "A";
+            this.Column5.Image = ((System.Drawing.Image)(resources.GetObject("Column5.Image")));
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            this.Column5.ToolTipText = "Editar";
+            // 
+            // Column4
+            // 
+            this.Column4.FillWeight = 50F;
+            this.Column4.HeaderText = "E";
+            this.Column4.Image = ((System.Drawing.Image)(resources.GetObject("Column4.Image")));
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            this.Column4.ToolTipText = "Eliminar";
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.HeaderText = "Id";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            this.dataGridViewTextBoxColumn5.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn6.FillWeight = 200F;
+            this.dataGridViewTextBoxColumn6.HeaderText = "Types of Projects";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.ReadOnly = true;
+            this.dataGridViewTextBoxColumn6.Width = 164;
+            // 
+            // dataGridViewImageColumn3
+            // 
+            this.dataGridViewImageColumn3.FillWeight = 50F;
+            this.dataGridViewImageColumn3.HeaderText = "A";
+            this.dataGridViewImageColumn3.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn3.Image")));
+            this.dataGridViewImageColumn3.Name = "dataGridViewImageColumn3";
+            this.dataGridViewImageColumn3.ReadOnly = true;
+            this.dataGridViewImageColumn3.ToolTipText = "Editar";
+            // 
+            // dataGridViewImageColumn4
+            // 
+            this.dataGridViewImageColumn4.FillWeight = 50F;
+            this.dataGridViewImageColumn4.HeaderText = "E";
+            this.dataGridViewImageColumn4.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn4.Image")));
+            this.dataGridViewImageColumn4.Name = "dataGridViewImageColumn4";
+            this.dataGridViewImageColumn4.ReadOnly = true;
+            this.dataGridViewImageColumn4.ToolTipText = "Eliminar";
+            // 
             // FormMMProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2098,12 +2080,6 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn3;
-        private System.Windows.Forms.DataGridViewImageColumn Column4;
-        private System.Windows.Forms.DataGridViewImageColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private Bunifu.Framework.UI.BunifuMaterialTextbox txt_cabeca_Depa;
         private Bunifu.Framework.UI.BunifuImageButton btnFDepa;
         private System.Windows.Forms.ToolTip toolTip1;
@@ -2127,9 +2103,7 @@
         private Guna.UI2.WinForms.Guna2Button btnEditarImposto;
         private System.Windows.Forms.Panel panel3;
         private Bunifu.Framework.UI.BunifuCards bunifuCards4;
-        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn4;
         private Bunifu.Framework.UI.BunifuCards bunifuCards1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn2;
         private Guna.UI2.WinForms.Guna2ToggleSwitch swtCadEdit;
         private Guna.UI2.WinForms.Guna2Button btnBuscarImg;
@@ -2153,7 +2127,6 @@
         private Bunifu.Framework.UI.BunifuMaterialTextbox txt_nif;
         private Bunifu.Framework.UI.BunifuMaterialTextbox txt_nome;
         private Guna.UI2.WinForms.Guna2CirclePictureBox picture_img;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.Label label4;
         private Bunifu.Framework.UI.BunifuCards bunifuCards9;
         public Guna.UI2.WinForms.Guna2NumericUpDown txt_percent_func_distri;
@@ -2202,5 +2175,12 @@
         private Guna.UI2.WinForms.Guna2Button btnSalvaTP;
         private System.Windows.Forms.DataGridView dg_Tipo_Projecto;
         private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewImageColumn Column5;
+        private System.Windows.Forms.DataGridViewImageColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn3;
+        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn4;
     }
 }
