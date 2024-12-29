@@ -109,6 +109,9 @@
     <EmbeddedResource Include="Forms Auxiliares\FormIncome.resx">
       <DependentUpon>FormIncome.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms Auxiliares\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms Auxiliares\FormReport.resx">
       <DependentUpon>FormReport.cs</DependentUpon>
     </EmbeddedResource>
