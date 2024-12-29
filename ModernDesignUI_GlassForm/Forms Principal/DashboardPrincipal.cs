@@ -252,5 +252,18 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
             T1.ShowSync(panelexe);
         }
 
+        private void btnMReAtendimento_Click(object sender, EventArgs e)
+        {
+            panelCabecalho.BottomSahddow = true;
+
+            openChildForm(new FormReport());
+
+            panelexe.BringToFront();
+
+            panelexe.Visible = false;
+
+            T1.ShowSync(panelexe);
+        }
+
     }
 }
