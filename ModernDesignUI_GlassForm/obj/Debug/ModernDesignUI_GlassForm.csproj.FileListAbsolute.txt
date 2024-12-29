@@ -15,3 +15,4 @@ C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\D
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.csprojResolveAssemblyReference.cache
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.Forms_Auxiliares.FormUser.resources
 C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.Forms_Auxiliares.FormIncome.resources
+C:\Users\WEST\3D Objects\ModernDesignUI_GlassForm\ModernDesignUI_GlassForm\obj\Debug\ModernDesignUI_GlassForm.Forms_Principal.FormMMProfile.resources
