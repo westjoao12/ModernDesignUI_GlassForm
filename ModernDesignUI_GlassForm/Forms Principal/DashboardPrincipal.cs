@@ -239,5 +239,18 @@ namespace ModernDesignUI_GlassForm.Forms_Principal
             frm.ShowDialog();
         }
 
+        private void btnMMProfile_Click(object sender, EventArgs e)
+        {
+            panelCabecalho.BottomSahddow = true;
+
+            openChildForm(new FormMMProfile());
+
+            panelexe.BringToFront();
+
+            panelexe.Visible = false;
+
+            T1.ShowSync(panelexe);
+        }
+
     }
 }
